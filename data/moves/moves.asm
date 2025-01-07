@@ -48,7 +48,7 @@ Moves:
 	move WRAP,         TRAPPING_EFFECT,             15, NORMAL,        85, 20
 	move TAKE_DOWN,    RECOIL_EFFECT,               90, NORMAL,        85, 20
 	move THRASH,       THRASH_PETAL_DANCE_EFFECT,  120, NORMAL,       100, 20 ; Now 120 Base Power
-	move DOUBLE_EDGE,  RECOIL_EFFECT,              100, NORMAL,       100, 15
+	move DOUBLE_EDGE,  RECOIL_EFFECT,              120, NORMAL,       100, 15 ; Now 120 Base Power
 	move TAIL_WHIP,    DEFENSE_DOWN1_EFFECT,         0, NORMAL,       100, 30
 	move POISON_STING, POISON_SIDE_EFFECT1,         15, POISON,       100, 35
 	move TWINEEDLE,    TWINEEDLE_EFFECT,            25, BUG,          100, 20
@@ -129,7 +129,7 @@ Moves:
 	move FOCUS_ENERGY, FOCUS_ENERGY_EFFECT,          0, NORMAL,       100, 30
 	move BIDE,         BIDE_EFFECT,                  0, NORMAL,       100, 10
 	move METRONOME,    METRONOME_EFFECT,             0, NORMAL,       100, 10
-	move MIRROR_MOVE,  MIRROR_MOVE_EFFECT,           0, FLYING,       100, 20
+	move MIRROR_MOVE,  MIRROR_MOVE_EFFECT,           0, BIRD,       100, 20
 	move SELFDESTRUCT, EXPLODE_EFFECT,             130, NORMAL,       100,  5
 	move EGG_BOMB,     NO_ADDITIONAL_EFFECT,       100, GRASS,         90, 10 ; Now Grass-type for Exeggutor, 90 Acc. Gives Chansey some fun too.
 	move LICK,         PARALYZE_SIDE_EFFECT2,       40, GHOST,        100, 30
@@ -153,7 +153,7 @@ Moves:
 	move BARRAGE,      TWO_TO_FIVE_ATTACKS_EFFECT,  25, GRASS,        100, 20 ; Now 100 acc with 25 bp. Exeggutor can have fun.
 	move LEECH_LIFE,   DRAIN_HP_EFFECT,             50, BUG,          100, 15 ; Now 50 base power, s/o zuperZACH for the idea.
 	move LOVELY_KISS,  SLEEP_EFFECT,                 0, NORMAL,        75, 10
-	move SKY_ATTACK,   CHARGE_EFFECT,              140, FLYING,        90,  5
+	move SKY_ATTACK,   CHARGE_EFFECT,              140, BIRD,        90,  5
 	move TRANSFORM,    TRANSFORM_EFFECT,             0, NORMAL,       100, 10
 	move BUBBLE,       SPEED_DOWN_SIDE_EFFECT,      20, WATER,        100, 30
 	move DIZZY_PUNCH,  CONFUSION_SIDE_EFFECT,       80, NORMAL,       100, 10 ; Now 80 BP with its Confusion chance. Kanga!!!!
@@ -205,7 +205,7 @@ Moves:
 	move ROCK_WRECKER,   HYPER_BEAM_EFFECT,        150, ROCK,		90,  5
 	move BLAST_BURN,   	HYPER_BEAM_EFFECT,         150, FIRE, 		90,  5
 	move HYDRO_CANNON,   HYPER_BEAM_EFFECT,        150, WATER,		90,  5
-	move REPRIMAND,		EVASION_DOWN2_EFFECT,		 0, NORMAL, 	90, 15
+	move REPRIMAND,		EVASION_DOWN2_EFFECT,		 0, DARK, 	90, 15
 	move NEUROTOXIN,	SPECIAL_DOWN_SIDE_EFFECT,	75, POISON, 	100, 15
 	move SHADOW_BALL,	DEFENSE_DOWN_SIDE_EFFECT,	80, GHOST, 		100, 15 ; fine take it u menaces to society
 	move SLUDGE_BOMB,	POISON_SIDE_EFFECT1,		80, POISON, 	100, 15
@@ -214,7 +214,7 @@ Moves:
 	move SIGNAL_BEAM,	CONFUSION_SIDE_EFFECT,		75,	BUG,		100, 15
 	move SPARK,			PARALYZE_SIDE_EFFECT2,		65, ELECTRIC,	100, 20
 	move OVERLOAD,		RECOIL_EFFECT,				100, ELECTRIC,	100, 15
-	move GIGAVOLT,      PARALYZE_SIDE_EFFECT2,      130, ELECTRIC,   70,  5
+	move GIGAVOLT,   	HYPER_BEAM_EFFECT,        	150, ELECTRIC,	 90,  5
 	move TOMBSTONER,    NO_ADDITIONAL_EFFECT,       130, ROCK,   	 70,  5
 	move ROCK_BLAST,    TWO_TO_FIVE_ATTACKS_EFFECT,  25, ROCK,       90, 10
 	move SCISSOR_STUN,	PARALYZE_SIDE_EFFECT2,		 80, BUG,		100, 15 ; Bug Body Slam, taken from Paralysing Scissors.
