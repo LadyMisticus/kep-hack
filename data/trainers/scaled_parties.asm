@@ -47,14 +47,14 @@ ErikaData:
 
 KogaData:
 	db $FF, 11, VENONAT, 12, ZUBAT, 14, KOFFING, 0                                           ; 0 badges (unused)
-	db $FF, 19, VENONAT, 18, GRIMER, 19, KOFFING, 21, GOLBAT, 0                              ; 1
-	db $FF, 22, VENONAT, 21, TENTACOOL, 21, GRIMER, 23, KOFFING, 25, GOLBAT, 0               ; 2
-	db $FF, 29, VENOMOTH, 28, TENTACOOL, 28, GRIMER, 29, KOFFING, 31, GOLBAT, 0              ; 3
-	db $FF, 38, VENOMOTH, 37, TENTACRUEL, 37, MUK, 38, WEEZING, 40, CROBAT, 0                ; 4
-	db $FF, 41, VENOMOTH, 40, TENTACRUEL, 40, MUK, 41, WEEZING, 43, CROBAT, 0                ; 5
-	db $FF, 45, VENOMOTH, 44, TENTACRUEL, 44, MUK, 45, WEEZING, 47, CROBAT, 0                ; 6
-	db $FF, 57, VENOMOTH, 56, BELLIGNAN, 56, TENTACRUEL, 57, MUK, 57, WEEZING, 60, CROBAT, 0 ; 7 (unused)
-	db $FF, 67, VENOMOTH, 66, BELLIGNAN, 66, SLOWBRO_G, 67, MUK, 67, WEEZING, 70, CROBAT, 0  ; 8 (postgame)
+	db $FF, 19, VENONAT, 18, GASTLY, 19, GRIMER, 21, KOFFING, 0                              ; 1
+	db $FF, 22, VENONAT, 21, TENTACOOL, 21, GRIMER, 23, KOFFING, 25, HAUNTER, 0               ; 2
+	db $FF, 29, VENOMOTH, 28, TENTACOOL, 28, GRIMER, 29, KOFFING, 31, HAUNTER, 0              ; 3
+	db $FF, 38, VENOMOTH, 37, TENTACRUEL, 37, HAUNTER, 38, MUK, 40, WEEZING, 0                ; 4
+	db $FF, 41, VENOMOTH, 40, TENTACRUEL, 40, GENGAR, 41, MUK, 43, WEEZING, 0                ; 5
+	db $FF, 45, VENOMOTH, 44, TENTACRUEL, 44, GENGAR, 45, MUK, 47, WEEZING, 0                ; 6
+	db $FF, 57, VENOMOTH, 56, BELLIGNAN, 56, TENTACRUEL, 57, MUK, 57, WEEZING, 60, WEEZING, 0 ; 7 (unused)
+	db $FF, 67, VENOMOTH, 66, BELLIGNAN, 66, SLOWBRO_G, 67, GENGAR, 67, MUK, 70, WEEZING, 0  ; 8 (postgame)
 
 SabrinaData:
 	db $FF, 11, SLOWPOKE, 12, DROWZEE, 14, KADABRA, 0                                            ; 0 badges (unused)
@@ -116,15 +116,15 @@ LanceData:
 YujirouData: ; was unused juggler
 	db $FF, 5, COINPUR, 6, RATTATA, 8, LICKITUNG, 0                                           ; 0
 	db $FF, 11, COINPUR, 12, RATTATA, 14, LICKITUNG, 0                                        ; 1
-	db $FF, 19, MEOWTH, 18, RATICATE, 19, FARFETCHD, 21, LICKITUNG, 0                         ; 2
-	db $FF, 22, MEOWTH, 21, RATICATE, 21, JIGGLYPUFF, 23, FARFETCHD, 25, LICKITUNG, 0         ; 3
-	db $FF, 29, PERSIAN, 28, RATICATE, 28, JIGGLYPUFF, 29, LUXWAN, 31, LICKITUNG, 0           ; 4
-	db $FF, 38, PERSIAN, 37, RATICATE, 37, CHANSEY, 38, LUXWAN, 40, LICKILICKY, 0,            ; 5
-	db $FF, 41, PERSIAN, 40, TAUROS, 40, CHANSEY, 41, LUXWAN, 43, LICKILICKY, 0               ; 6
-	db $FF, 45, PERSIAN, 44, TAUROS, 44, CHANSEY, 45, LUXWAN, 47, LICKILICKY, 0               ; 7
-	db $FF, 47, PERSIAN, 46, TAUROS, 46, BLISSEY, 48, LUXWAN, 48, SNORLAX, 50, LICKILICKY, 0  ; 8
+	db $FF, 19, MEOWTH, 18, RATICATE, 19, PORYGON, 21, LICKITUNG, 0                         ; 2
+	db $FF, 22, MEOWTH, 21, RATICATE, 21, JIGGLYPUFF, 23, PORYGON, 25, LICKITUNG, 0         ; 3
+	db $FF, 29, PERSIAN, 28, RATICATE, 28, JIGGLYPUFF, 29, PORYGON2, 31, LICKITUNG, 0           ; 4
+	db $FF, 38, PERSIAN, 37, RATICATE, 37, CHANSEY, 38, PORYGON2, 40, LICKILICKY, 0,            ; 5
+	db $FF, 41, PERSIAN, 40, TAUROS, 40, CHANSEY, 41, PORYGON2, 43, LICKILICKY, 0               ; 6
+	db $FF, 45, PERSIAN, 44, TAUROS, 44, CHANSEY, 45, PORYGONZ, 47, LICKILICKY, 0               ; 7
+	db $FF, 47, PERSIAN, 46, TAUROS, 46, BLISSEY, 48, PORYGONZ, 48, SNORLAX, 50, LICKILICKY, 0  ; 8
 ; post-game rematch team
-	db $FF, 61, PERSIAN, 60, TAUROS, 60, BLISSEY, 61, LUXWAN, 61, SNORLAX, 64, LICKILICKY, 0
+	db $FF, 61, PERSIAN, 60, TAUROS, 60, BLISSEY, 61, PORYGONZ, 61, SNORLAX, 64, LICKILICKY, 0
 
 KoichiData:
 	db 13, HITMONLEE, HITMONCHAN, HITMONTOP, 0 ; 0 badges (unused)
