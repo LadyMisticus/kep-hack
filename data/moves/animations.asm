@@ -734,7 +734,7 @@ FrenzyPlantAnim:
 	battle_anim NO_MOVE, SUBANIM_0_STAR_TWICE, 0, 8
 	battle_anim VINE_WHIP, SUBANIM_0_SLICE, 0, 1
 	battle_anim NO_MOVE, SUBANIM_0_STAR_TWICE, 0, 8
-	battle_anim NO_MOVE, SUBANIM_1_STAR_BIG_MOVING, 1, 6
+	battle_anim STRENGTH, SUBANIM_1_STAR_BIG_MOVING, 1, 6
 	battle_anim NO_MOVE, SE_SHAKE_SCREEN
 	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
 	db -1 ; end
@@ -745,7 +745,7 @@ RockWreckerAnim:
 	battle_anim ROCK_SLIDE, SUBANIM_0_ROCKS_LIFT, 0, 4
 	battle_anim ROCK_SLIDE, SUBANIM_0_ROCKS_TOSS, 0, 3
 	battle_anim VICEGRIP, SUBANIM_0_ROCKS_FALL_ENEMY, 0, 4
-	battle_anim NO_MOVE, SUBANIM_1_STAR_BIG_MOVING, 1, 6
+	battle_anim STRENGTH, SUBANIM_1_STAR_BIG_MOVING, 1, 6
 	battle_anim NO_MOVE, SE_SHAKE_SCREEN
 	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
 	db -1 ; end
@@ -760,12 +760,8 @@ BlastBurnAnim:
 	battle_anim LEECH_SEED, SE_DARK_SCREEN_PALETTE
 	battle_anim NO_MOVE, SE_SPIRAL_BALLS_INWARD
 	battle_anim DRAGON_RAGE, SUBANIM_1_FLAME_BEAM, 1, 6
-	battle_anim NO_MOVE, SUBANIM_1_FLAME_BEAM, 1, 3
-	battle_anim NO_MOVE, SUBANIM_1_FLAME_BEAM, 1, 3
-	battle_anim NO_MOVE, SUBANIM_1_FLAME_BEAM, 1, 3
 	battle_anim NO_MOVE, SUBANIM_1_FLAME_COLUMN_1, 1, 6
 	battle_anim NO_MOVE, SUBANIM_1_FLAME_COLUMN_2, 1, 6
-	battle_anim NO_MOVE, SUBANIM_1_FLAMES, 1, 6
 	battle_anim NO_MOVE, SE_SHAKE_SCREEN
 	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
 	db -1 ; end
@@ -773,7 +769,6 @@ BlastBurnAnim:
 HydroCannonAnim:
 	battle_anim LEECH_SEED, SE_DARK_SCREEN_PALETTE
 	battle_anim NO_MOVE, SE_SPIRAL_BALLS_INWARD
-	battle_anim SURF, SE_WATER_DROPLETS_EVERYWHERE
 	battle_anim SKULL_BASH, SUBANIM_0_BEAM, 0, 3
 	battle_anim HYDRO_PUMP, SUBANIM_0_WATER_COLUMNS, 0, 6
 	battle_anim HYDRO_PUMP, SUBANIM_0_WATER_COLUMNS, 0, 6
@@ -1434,7 +1429,7 @@ LovelyKissAnim:
 TalonStrikeAnim:
 	battle_anim SLASH, SUBANIM_0_SCRATCHES, 0, 6
 	battle_anim SLASH, SUBANIM_0_SCRATCHES, 0, 6
-	battle_anim BIND, SUBANIM_0_STATUS_PARALYZED, 0, 4
+	battle_anim CONSTRICT, SUBANIM_0_BIND, 0, 6
 	db -1 ; end
 
 SkyAttackAnim:
