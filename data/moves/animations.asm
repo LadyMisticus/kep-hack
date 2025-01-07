@@ -769,9 +769,11 @@ BlastBurnAnim:
 	battle_anim LEECH_SEED, SE_DARK_SCREEN_PALETTE
 	battle_anim NO_MOVE, SE_SPIRAL_BALLS_INWARD
 	battle_anim DRAGON_RAGE, SUBANIM_1_FLAME_BEAM, 1, 6
-	battle_anim NO_MOVE, SUBANIM_1_FLAME_COLUMN_1, 1, 6
+	battle_anim NO_MOVE, SUBANIM_1_FLAME_BEAM, 1, 3
+	battle_anim NO_MOVE, SUBANIM_1_FLAME_BEAM, 1, 3
+	battle_anim FIRE_SPIN, SUBANIM_1_FLAME_COLUMN_1, 1, 6
 	battle_anim NO_MOVE, SUBANIM_1_FLAME_COLUMN_2, 1, 6
-	battle_anim NO_MOVE, SE_SHAKE_SCREEN
+	battle_anim EXPLOSION, SE_SHAKE_SCREEN
 	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
 	db -1 ; end
 
@@ -779,9 +781,9 @@ HydroCannonAnim:
 	battle_anim LEECH_SEED, SE_DARK_SCREEN_PALETTE
 	battle_anim NO_MOVE, SE_SPIRAL_BALLS_INWARD
 	battle_anim SKULL_BASH, SUBANIM_0_BEAM, 0, 3
-	battle_anim HYDRO_PUMP, SUBANIM_0_WATER_COLUMNS, 0, 6
-	battle_anim HYDRO_PUMP, SUBANIM_0_WATER_COLUMNS, 0, 6
-	battle_anim NO_MOVE, SE_SHAKE_SCREEN
+	battle_anim HYDRO_PUMP, SUBANIM_0_WATER_COLUMNS, 0, 4
+	battle_anim HYDRO_PUMP, SUBANIM_0_WATER_COLUMNS, 0, 5
+	battle_anim RAGE, SE_SHAKE_SCREEN
 	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
 	db -1 ; end
 
@@ -975,8 +977,9 @@ FlareAnim:
 
 MegaflareAnim:
 	battle_anim DRAGON_RAGE, SUBANIM_1_FLAME_BEAM, 1, 6
-	battle_anim FIRE_SPIN, SUBANIM_1_FLAME_COLUMN_1, 1, 6
-	battle_anim NO_MOVE, SUBANIM_1_FLAME_COLUMN_2, 1, 6
+	battle_anim FIRE_BLAST, SUBANIM_1_FLAME_COLUMN_2, 1, 4
+	battle_anim NO_MOVE, SUBANIM_1_FLAME_COLUMN_3, 1, 4
+	battle_anim NO_MOVE, SUBANIM_1_FLAMES, 1, 5
 	db -1 ; end
 
 GigaflareAnim:
@@ -1032,13 +1035,14 @@ ThunderAnim:
 	db -1 ; end
 
 GigavoltAnim: ; now there's MORE lightning
+	battle_anim LEECH_SEED, SE_DARK_SCREEN_PALETTE
+	battle_anim NO_MOVE, SE_SPIRAL_BALLS_INWARD
 	battle_anim THUNDER, SE_DARK_SCREEN_PALETTE
-	battle_anim NO_MOVE, SE_DARK_SCREEN_FLASH
-	battle_anim NO_MOVE, SUBANIM_1_LIGHTNING, 1, 6
-	battle_anim NO_MOVE, SUBANIM_1_LIGHTNING, 1, 6
-	battle_anim NO_MOVE, SUBANIM_1_LIGHTNING, 1, 6
-	battle_anim NO_MOVE, SE_DARK_SCREEN_FLASH
-	battle_anim THUNDERBOLT, SUBANIM_1_LIGHTNING_BALL, 1, 2
+	battle_anim THUNDER_WAVE, SUBANIM_0_BEAM, 0, 4
+	battle_anim NO_MOVE, SUBANIM_1_LIGHTNING_BALL, 1, 2
+	battle_anim THUNDER, SE_DARK_SCREEN_FLASH
+	battle_anim NO_MOVE, SUBANIM_1_LIGHTNING, 1, 3
+	battle_anim STRENGTH, SE_SHAKE_SCREEN
 	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
 	db -1 ; end
 
