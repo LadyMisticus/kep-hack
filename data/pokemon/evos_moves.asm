@@ -273,6 +273,7 @@ RhydonEvosMoves:
 	db EV_ITEM, PROTECTOR, 1, RHYPERIOR 
 	db 0
 ; Learnset
+	db 14, ROCK_BLAST
 	db 20, STOMP
 	db 25, TAIL_WHIP
 	db 30, FURY_ATTACK
@@ -394,6 +395,7 @@ IvysaurEvosMoves:
 	db 52, DOUBLE_EDGE
 	db 57, TOXIC
 	db 62, SOLARBEAM
+	db 70, FRENZY_PLANT
 	db 0
 
 ExeggutorEvosMoves:
@@ -498,6 +500,7 @@ RhyhornEvosMoves:
 	db EV_LEVEL, 42, RHYDON
 	db 0
 ; Learnset
+	db 14, ROCK_BLAST
 	db 20, STOMP
 	db 25, TAIL_WHIP
 	db 30, FURY_ATTACK
@@ -599,6 +602,7 @@ ScytherEvosMoves:
 	db 32, WING_ATTACK
 	db 35, SWORDS_DANCE
 	db 42, AGILITY
+	db 48, SCISSOR_STUN
 	db 0
 
 StaryuEvosMoves:
@@ -2734,15 +2738,17 @@ ScizorEvosMoves:
 	db 20, FOCUS_ENERGY
 	db 24, DOUBLE_TEAM
 	db 29, SLASH
-	db 35, SWORDS_DANCE
-	db 42, AGILITY
-	db 50, IRON_HEAD
+	db 35, SCISSOR_STUN
+	db 42, SWORDS_DANCE
+	db 48, AGILITY
+	db 52, IRON_HEAD
 	db 0
 
 RhyperiorEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 14, ROCK_BLAST
 	db 20, STOMP
 	db 25, TAIL_WHIP
 	db 30, FURY_ATTACK
@@ -2751,6 +2757,7 @@ RhyperiorEvosMoves:
 	db 48, LEER
 	db 55, EARTHQUAKE
 	db 64, TAKE_DOWN
+	db 70, ROCK_WRECKER
 	db 0
 
 EspeonEvosMoves:
@@ -2853,9 +2860,10 @@ KleavorEvosMoves:
 	db 20, FOCUS_ENERGY
 	db 24, DOUBLE_TEAM
 	db 29, SLASH
-	db 35, SWORDS_DANCE
-	db 42, AGILITY
-	db 50, ROCK_SLIDE
+	db 35, SCISSOR_STUN
+	db 42, SWORDS_DANCE
+	db 48, AGILITY
+	db 54, ROCK_SLIDE
 	db 0
 
 BellignanEvosMoves:
