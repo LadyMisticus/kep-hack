@@ -14,10 +14,10 @@
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm SWORDS_DANCE, TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
+	tmhm SWORDS_DANCE, TOXIC,        BODY_SLAM,    HEADBUTT,    DOUBLE_EDGE,  \
 	     BUBBLEBEAM,   WATER_GUN,    HYPER_BEAM,   PAY_DAY,      RAGE,         \
 	     THUNDERBOLT,  THUNDER,      DIG,          MIMIC,        BIDE,         \
-	     SWIFT,        SKULL_BASH,   REST,         SUBSTITUTE,   CUT
+	     SWIFT,        SKULL_BASH,   REST,         SUBSTITUTE,   CUT, SMART_STRIKE
 	; end
 
 	db BANK(PerrserkerPicFront)

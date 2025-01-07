@@ -15,7 +15,7 @@
 
 	; tm/hm learnset
 	tmhm TOXIC, 	   RAGE, 	     MIMIC, 	   DOUBLE_TEAM,  BIDE,		   \
-		 REST,         THUNDER_WAVE, SUBSTITUTE 
+		 REST,         THUNDER_WAVE, SUBSTITUTE, SMART_STRIKE
 	; end
 
 	db BANK(MeltanPicFront)

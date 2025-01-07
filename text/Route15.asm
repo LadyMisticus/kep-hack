@@ -67,7 +67,14 @@ _Route15AfterBattleText4::
 	text "Did you know moves"
 	line "like EARTHQUAKE"
 	cont "don't have any"
-	cont "effect on birds?"
+	cont "effect on flying"
+	cont "#MON?"
+	
+	para "That includes"
+	line "WEEZING!"
+	
+	para "Yup, not all"
+	line "fliers are birds!"
 	done
 
 _Route15BattleText5::

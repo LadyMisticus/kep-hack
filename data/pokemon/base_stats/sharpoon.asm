@@ -14,10 +14,10 @@
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm SWORDS_DANCE, TOXIC,        HORN_DRILL,   TAKE_DOWN,    DOUBLE_EDGE,  \
+	tmhm SWORDS_DANCE, TOXIC,        HORN_DRILL,   HEADBUTT,    DOUBLE_EDGE,  \
 	     BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   \
 	     RAGE,         EARTHQUAKE,   FISSURE,      MIMIC,        DOUBLE_TEAM,  \
-	     BIDE,         SKULL_BASH,   REST,         SUBSTITUTE,   SURF
+	     BIDE,         SKULL_BASH,   REST,         SUBSTITUTE,   SURF, SMART_STRIKE
 	; end
 
 	db BANK(SharpoonPicFront)

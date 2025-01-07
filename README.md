@@ -1,6 +1,6 @@
 Kanto Expansion Pak: KEPiversary Edition
 ===================
-This is Plague von Karma's KEP fork, containing many changes that were considered out of the scope of the original Kanto Expansion Pak.
+This is Plague von Karma's KEP fork, containing many changes that were considered out of the scope of the original Kanto Expansion Pak. Naturally, this hack assumes you have played and understand the changes in [the original Kanto Expansion Pak](https://github.com/PlagueVonKarma/kep-hack/tree/master). It is strongly encouraged you read the readme alongside this one if you have not.
 
 # Move changes
 KEPiversary Edition adds numerous new moves to the game, aiming to make use of unused effects and populate some oft-forgotten types. This was bottlenecked by the 8-bit registers used by the game: The banks are now full, all KEPs are off! 
@@ -15,7 +15,7 @@ KEPiversary Edition splits Flying into Bird and Flying, speculating on the hypot
 Bird is the "avian" type, focusing on the parts of a bird's body, particularly the beak. 
 * Bird is super-effective against: Bug, Grass
 * Bird is not very effective against: Rock, Steel
-* Bird is weak to: Poison, Rock
+* Bird is weak to: Poison, Rock, Electric
 * Bird resists: Bug, Grass
 
 Moves: 
@@ -29,8 +29,8 @@ Moves:
 
 ### Flying
 Flying is the "wind" type, employing moves that use the wind. Wing-based moves are also used here, targeted at Pokemon like Scyther. Pokemon that float or are somewhat gaseous in nature have been assigned the type.
-* Flying loses its super-effectiveness against Bug and Grass.
-* Flying maintains its Rock/Steel MUs. The sole difference is Bug/Grass matchups.
+* Flying loses its super-effectiveness and resistances against Bug and Grass.
+* Flying maintains its other MUs. The sole difference is Bug/Grass matchups.
 
 Moves:
 * GUST
@@ -138,7 +138,7 @@ Bird/Flying-related changes are excluded from the list.
 * Carapthor now has 70 Speed, accounting for BST changes to Butterfree and Beedrill.
 * Charizard now has 109 Special. I am here for you to have fun.
 * Totartle's stats have been reworked to be in line with Charizard: 89/87/85/110/78.
-* Venusaur's stats have been reworked to be in line with Charizard: 80/92/83/104/90
+* Venusaur's stats have been reworked to be in line with Charizard: 80/92/83/104/90.
 * Raichu and Gorochu are now Electric/Dark, standing in opposition to the Alolan Menace.
 * Orfry line is now Water/Normal and has received a significant statistical rework: Orfry has Goldeen's stats, Goldeen has Seaking's, and Seaking has 85/112/75/90/88.
 * Hitmonchan's stats have been reworked: 65/105/76/95/76. Elemental punches are now usable, but not overshadowing its brilliant Fighting-type prowess. A true mixed attacker.

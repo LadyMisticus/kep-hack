@@ -15,7 +15,7 @@
 
 	; tm/hm learnset
 	tmhm MEGA_PUNCH,   RAZOR_WIND,   SWORDS_DANCE, MEGA_KICK,    TOXIC,        \
-	     BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  HYPER_BEAM,   PAY_DAY,      \
+	     BODY_SLAM,    HEADBUTT,    DOUBLE_EDGE,  HYPER_BEAM,   PAY_DAY,      \
 	     SUBMISSION,   COUNTER,      SEISMIC_TOSS, RAGE,         MEGA_DRAIN,   \
 	     EARTHQUAKE,   FISSURE,      DIG,          MIMIC,        DOUBLE_TEAM,  \
 	     REFLECT,      BIDE,         SWIFT,        SKULL_BASH,   REST,         \

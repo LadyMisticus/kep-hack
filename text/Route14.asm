@@ -30,6 +30,9 @@ _Route14EndBattleText2::
 _Route14AfterBattleText2::
 	text "They need to learn"
 	line "better moves."
+	
+	para "How about RAZOR"
+	line "WIND?"
 	done
 
 _Route14BattleText3::
@@ -65,6 +68,11 @@ _Route14EndBattleText4::
 _Route14AfterBattleText4::
 	text "Bird #MON are"
 	line "my true love!"
+	
+	para "They don't"
+	line "all get type"
+	cont "boosts from"
+	cont "FLY, though..."
 	done
 
 _Route14BattleText5::

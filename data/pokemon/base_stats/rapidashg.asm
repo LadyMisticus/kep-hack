@@ -14,10 +14,10 @@
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm TOXIC,        HORN_DRILL,   BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
+	tmhm TOXIC,        HORN_DRILL,   BODY_SLAM,    HEADBUTT,    DOUBLE_EDGE,  \
 	     HYPER_BEAM,   PAY_DAY,      RAGE,         PSYCHIC_M,    TELEPORT,     \
 	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         SWIFT,        \
-	     SKULL_BASH,   REST,         PSYWAVE,      SUBSTITUTE
+	     SKULL_BASH,   REST,         PSYWAVE,      SUBSTITUTE, DRAININGKISS
 	; end
 
 	db BANK(RapidashGPicFront)

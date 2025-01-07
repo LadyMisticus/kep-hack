@@ -9,27 +9,7 @@ CinnabarLabMetronomeRoom_TextPointers:
 	dw Lab3Text5
 
 Lab3Text1:
-	text_asm
-	CheckEvent EVENT_GOT_TM35
-	jr nz, .got_item
-	ld hl, TM35PreReceiveText
-	call PrintText
-	lb bc, TM_METRONOME, 1
-	call GiveItem
-	jr nc, .bag_full
-	ld hl, ReceivedTM35Text
-	call PrintText
-	SetEvent EVENT_GOT_TM35
-	jr .done
-.bag_full
-	ld hl, TM35NoRoomText
-	call PrintText
-	jr .done
-.got_item
-	ld hl, TM35ExplanationText
-	call PrintText
-.done
-	jp TextScriptEnd
+	script_mart TM_METRONOME, TM_SHADOW_BALL, TM_HEADBUTT, TM_FLAMETHROWER, TM_TOMBSTONER
 
 TM35PreReceiveText:
 	text_far _TM35PreReceiveText
@@ -49,8 +29,7 @@ TM35NoRoomText:
 	text_end
 
 Lab3Text2:
-	text_far _Lab3Text2
-	text_end
+	script_mart TM_POLLINATE, TM_MEGAFLARE, TM_SMART_STRIKE, TM_SLUDGE_BOMB, TM_BRUTAL_SWING, TM_DRAINING_KISS
 
 Lab3Text4:
 Lab3Text3:

@@ -15,7 +15,7 @@
 
 	; tm/hm learnset
 	tmhm WHIRLWIND,    MEGA_KICK,    TOXIC,        HORN_DRILL,   BODY_SLAM,    \
-	     TAKE_DOWN,    DOUBLE_EDGE,  HYPER_BEAM,   RAGE,         MEGA_DRAIN,   \
+	     HEADBUTT,    DOUBLE_EDGE,  HYPER_BEAM,   RAGE,         MEGA_DRAIN,   \
 	     SOLARBEAM,    EARTHQUAKE,   FISSURE,      MIMIC,        DOUBLE_TEAM,  \
 	     BIDE,         SELFDESTRUCT, SWIFT,        REST,         EXPLOSION,    \
 	     TRI_ATTACK,   SUBSTITUTE

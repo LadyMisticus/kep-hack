@@ -9,9 +9,13 @@ _Route13EndBattleText2::
 	prompt
 
 _Route13AfterBattleText2::
-	text "My #MON look"
-	line "happy even though"
-	cont "they lost."
+	text "Bird #MON are"
+	line "great against"
+	cont "grass and bug"
+	cont "#MON!"
+	
+	para "Poison, on the"
+	line "other hand..."
 	done
 
 _Route13BattleText3::
@@ -153,8 +157,12 @@ _Route13EndBattleText11::
 
 _Route13AfterBattleText11::
 	text "I wish I could"
-	line "fly like PIDGEY"
+	line "FLY like PIDGEY"
 	cont "and PIDGEOTTO..."
+	
+	para "The flying type"
+	line "controls the"
+	cont "wind!"
 	done
 
 _Route13Text11::

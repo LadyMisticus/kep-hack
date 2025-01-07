@@ -1,71 +1,43 @@
-_TM35PreReceiveText::
-	text "Tch-tch-tch!"
-	line "I made a cool TM!"
-
-	para "It can cause all"
-	line "kinds of fun!"
+_TM35PreReceiveText:: ; Now unused
+	text ""
 	prompt
 
 _ReceivedTM35Text::
-	text "<PLAYER> received "
-	line "@"
-	text_ram wStringBuffer
-	text "!@"
+	text ""
 	text_end
 
 _TM35ExplanationText::
-	text "Tch-tch-tch!"
-	line "That's the sound"
-	cont "of a METRONOME!"
-
-	para "It tweaks your"
-	line "#MON's brain"
-	cont "into using moves"
-	cont "it doesn't know!"
+	text ""
 	done
 
 _TM35NoRoomText::
-	text "Your pack is"
-	line "crammed full!"
+	text ""
 	done
 
-_Lab3Text2::
-	text "EEVEE can evolve"
-	line "into 1 of 8 kinds"
-	cont "of #MON."
-	
-	para "I have seen it" ; Reference to the Evolution Stone Glitch, which we've made a feature.
-	line "evolve through"
-	cont "battling certain"
-	cont "#MON, but"
-	cont "nobody believes"
-	cont "me!"
+_Lab3Text2:: ; Now unused
+	text ""
 	done
 
-_Lab3Text3::
+_Lab3Text3:: ; Changed to have Giovanni running a scheme.
 	text "There's an e-mail"
 	line "message!"
 
 	para "..."
 
-	para "The 3 legendary"
-	line "bird #MON are"
-	cont "ARTICUNO, ZAPDOS"
-	cont "and MOLTRES."
-
-	para "Although their"
-	line "true whereabouts"
-	cont "are unknown,"
-	cont "MOLTRES has been"
-	cont "sighted near the"
-	cont "volcano recently."
+	para "I hope the TM di-"
+	line "stribution is"
+	cont "going swimmingly."
 	
-	para "We plan to explore"
-	line "the cavern close"
-	cont "to CERULEAN next."
+	para "Make sure that"
+	line "every TRAINER is"
+	cont "using them."
+	
+	para "Every TRAINER"
+	line "will turn to"
+	cont "TEAM ROCKET for"
+	cont "power!"
 
-	para "From: #MON"
-	line "RESEARCH TEAM"
+	para "From: GIOVANNI"
 
 	para "..."
 	done

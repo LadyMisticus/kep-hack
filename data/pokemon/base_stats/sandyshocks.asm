@@ -14,7 +14,7 @@
 	db GROWTH_SLIGHTLY_SLOW ; growth rate - reusing unused exp group, seems funny
 
 	; tm/hm learnset
-	tmhm MEGA_KICK,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
+	tmhm MEGA_KICK,    TOXIC,        BODY_SLAM,    HEADBUTT,    DOUBLE_EDGE,  \
 	     HYPER_BEAM,   RAGE,         THUNDERBOLT,  THUNDER,      EARTHQUAKE,   \
 	     FISSURE,      DIG,          TELEPORT,     MIMIC,        DOUBLE_TEAM,  \
 	     REFLECT,      BIDE,         SWIFT,        REST,         THUNDER_WAVE, \
