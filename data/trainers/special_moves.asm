@@ -15,15 +15,12 @@ SpecialTrainerMoves:
 	
 	db YUJIROU, 3	; Yujirou 2 badges
 	db 1, 1, BITE
-	db 3, 4, CUT
 	db 4, 4, LICK
 	db 0
 	
 	db YUJIROU, 4	; Yujirou 3 badges
 	db 2, 1, DIG
 	db 3, 4, SING
-	db 4, 2, PECK
-	db 4, 3, CUT
 	db 5, 3, WRAP
 	db 5, 4, LICK
 	db 0
@@ -34,8 +31,8 @@ SpecialTrainerMoves:
 	db 1, 4, BODY_SLAM
 	db 2, 4, DIG
 	db 3, 3, SING
-	db 4, 2, PECK
-	db 4, 3, CUT
+	db 4, 1, TRI_ATTACK
+	db 4, 4, THUNDERBOLT
 	db 5, 2, SWORDS_DANCE
 	db 5, 3, WRAP
 	db 5, 4, LICK
@@ -50,8 +47,8 @@ SpecialTrainerMoves:
 	db 3, 1, SOFTBOILED
 	db 3, 2, EGG_BOMB
 	db 3, 4, PSYCHIC_M
-	db 4, 1, FLY
-	db 4, 2, CUT
+	db 4, 1, TRI_ATTACK
+	db 4, 4, THUNDERBOLT
 	db 5, 1, WRAP
 	db 5, 2, SWORDS_DANCE
 	db 5, 3, STOMP
@@ -66,7 +63,10 @@ SpecialTrainerMoves:
 	db 3, 1, SOFTBOILED
 	db 3, 3, PSYCHIC_M
 	db 3, 4, ICE_BEAM
-	db 4, 1, FLY
+	db 4, 1, TRI_ATTACK
+	db 4, 2, THUNDERBOLT
+	db 4, 3, RECOVER
+	db 4, 4, PSYBEAM
 	db 5, 1, WRAP
 	db 5, 2, SWORDS_DANCE
 	db 5, 3, STOMP
@@ -81,6 +81,10 @@ SpecialTrainerMoves:
 	db 3, 2, ICE_BEAM
 	db 3, 3, PSYCHIC_M
 	db 3, 4, SOFTBOILED
+	db 4, 1, TRI_ATTACK
+	db 4, 2, THUNDERBOLT
+	db 4, 3, RECOVER
+	db 4, 4, PSYBEAM
 	db 5, 1, WRAP
 	db 5, 2, SWORDS_DANCE
 	db 5, 3, STOMP
@@ -95,6 +99,9 @@ SpecialTrainerMoves:
 	db 3, 2, ICE_BEAM
 	db 3, 3, PSYCHIC_M
 	db 3, 4, SOFTBOILED
+	db 4, 1, TRI_ATTACK
+	db 4, 2, THUNDERBOLT
+	db 4, 3, RECOVER
 	db 5, 3, BLIZZARD
 	db 5, 4, AMNESIA
 	db 6, 1, WRAP
@@ -461,17 +468,14 @@ SpecialTrainerMoves:
 	db 0
 	
 	db KOGA, 2		; Koga 1 badge
-	db 3, 4, SMOKESCREEN
 	db 4, 2, TOXIC
-	db 4, 3, SCREECH
 	db 0
 
 	db KOGA, 3		; Koga 2 badges
 	db 2, 4, WATER_GUN
 	db 3, 2, POUND
 	db 4, 2, TOXIC
-	db 5, 2, TOXIC
-	db 5, 3, SCREECH
+	db 5, 4, TOXIC
 	db 0
 	
 	db KOGA, 4		; Koga 3 badges
@@ -482,9 +486,7 @@ SpecialTrainerMoves:
 	db 3, 1, BODY_SLAM
 	db 3, 2, DISABLE
 	db 4, 1, TOXIC
-	db 5, 1, WING_ATTACK
 	db 5, 2, TOXIC
-	db 5, 4, SCREECH
 	db 0
 	
 	db KOGA, 5		; Koga 4 badges
@@ -493,12 +495,11 @@ SpecialTrainerMoves:
 	db 2, 1, TOXIC
 	db 2, 2, SURF
 	db 2, 3, WRAP
-	db 3, 3, BODY_SLAM
-	db 3, 4, TOXIC
+	db 3, 1, DREAM_EATER
+	db 3, 2, PSYCHIC_M
+	db 4, 3, BODY_SLAM
 	db 4, 4, TOXIC
-	db 5, 1, TOXIC
-	db 5, 2, FLY
-	db 5, 3, SLUDGE
+	db 5, 4, TOXIC
 	db 0
 	
 	db KOGA, 6		; Koga 5 badges
@@ -507,11 +508,11 @@ SpecialTrainerMoves:
 	db 2, 1, TOXIC
 	db 2, 2, SURF
 	db 2, 3, WRAP
-	db 3, 3, BODY_SLAM
-	db 3, 4, TOXIC
+	db 3, 1, THUNDERBOLT
+	db 3, 2, PSYCHIC_M
+	db 4, 3, BODY_SLAM
 	db 4, 4, TOXIC
-	db 5, 1, TOXIC
-	db 5, 2, FLY
+	db 5, 4, TOXIC
 	db 0
 	
 	db KOICHI, 2		; Koichi 1 badge
