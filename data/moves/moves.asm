@@ -133,7 +133,7 @@ Moves:
 	move SELFDESTRUCT, EXPLODE_EFFECT,             130, NORMAL,       100,  5
 	move EGG_BOMB,     NO_ADDITIONAL_EFFECT,       100, GRASS,         90, 10 ; Now Grass-type for Exeggutor, 90 Acc. Gives Chansey some fun too.
 	move LICK,         PARALYZE_SIDE_EFFECT2,       40, GHOST,        100, 30
-	move SMOG,         POISON_SIDE_EFFECT2,         30, POISON,        70, 20 ; Now 30 Base Power.
+	move SMOG,         POISON_SIDE_EFFECT2,         30, POISON,        90, 20 ; Now 30 Base Power, 89.5 acc.
 	move SLUDGE,       POISON_SIDE_EFFECT2,         65, POISON,       100, 20
 	move BONE_CLUB,    FLINCH_SIDE_EFFECT1,         65, GROUND,       100, 20 ; Now 100 Acc. Guardia can now Stomp.
 	move FIRE_BLAST,   BURN_SIDE_EFFECT2,          120, FIRE,          85,  5

@@ -6,10 +6,10 @@ This is Plague von Karma's KEP fork, containing many changes that were considere
 KEPiversary Edition adds numerous new moves to the game, aiming to make use of unused effects and populate some oft-forgotten types. This was bottlenecked by the 8-bit registers used by the game: The banks are now full, all KEPs are off!
 
 ## Flying-Bird Split
-KEPiversary Edition splits Flying into Bird and Flying, speculating on the hypothetical existence of the Bird type.
+KEPiversary Edition splits Flying into Bird and Flying, speculating on the hypothetical existence of the Bird type. There is ample vestigial evidence of how the type would have worked had it been in the game: I very nearly put this rework into the final KEP release, but decided against it for the vanilla purity ethos.
 
 ### Bird
-Bird is the "avian" type, aiming to 
+Bird is the "avian" type, focusing on the parts of a bird's body, particularly the beak. 
 * Bird is super-effective against: Bug, Grass
 * Bird is not very effective against: Rock, Steel
 * Bird is weak to: Poison, Rock
@@ -25,6 +25,7 @@ Moves:
 * FURY_ATTACK
 
 ### Flying
+Flying is the "wind" type, employing moves that use the wind. Wing-based moves are also used here, targeted at Pokemon like Scyther. Pokemon that float or are somewhat gaseous in nature have been assigned the type.
 * Flying loses its super-effectiveness against Bug and Grass.
 * Flying maintains its Rock/Steel MUs. The sole difference is Bug/Grass matchups.
 
@@ -35,6 +36,7 @@ Moves:
 * FLY
 * DUAL_WINGBEAT
 * STORMWINDS
+* RAZOR WIND
 
 Pokemon changed are as follows:
 * Pidgey line: Bird/Flying
@@ -43,6 +45,7 @@ Pokemon changed are as follows:
 * Doduo line: Bird
 * Sirfetch'd: Bird/Fighting
 * Psyduck line: Water/Bird
+* Koffing line: Poison/Flying
 * Porygon: Normal/Bird
 * Aerodactyl: Rock/Bird (the progenitor of birds, after all...)
 * Articuno: Ice/Bird
@@ -83,5 +86,61 @@ These are entirely new moves added to the ROM Hack. Some are backported from lat
 * OUTRAGE | Dragon | 120 BP | 99.6 Acc | Thrash-like.
 * SHADOW_SNEAK | Ghost | 40 BP | 99.6 Acc | Priority +1.
 
-# Pokemon changes
-* All Pokemon are brought to Gen 7 stat standards, save for Farfetch'd. Thus, Golem has 120 Atk, Dodrio has 110 Speed, and so on.
+## Vanilla Move Changes
+Bird/Flying-related changes are excluded from the list.
+* Karate Chop is now Fighting-type.
+* Double-Slap is now Fairy-type, targeted at Mr. Mime and the Clefairy line.
+* Comet Punch is now Fighting-type.
+* ViceGrip is now Steel-type.
+* Razor Wind is now an Air Cutter clone: 55 BP, 99.6 Acc, 10 PP Flying-type move with a high critical hit ratio.
+* Whirlwind now has 99.6 Acc.
+* Sand-Attack is now Ground-type.
+* Thrash, Double-Edge, and Petal Dance are now 120 BP. Much more worth using!
+* Bite is now Dark-type.
+* Sing now has 59.5 accuracy.
+* Acid now has 50 BP.
+* Absorb now has 40 BP, while Mega Drain has 65 BP. LGPE-style change.
+* Rage now has 60 BP.
+* Egg Bomb is now Grass-type. Exeggutor gets a really strong STAB move, and Blissey gets weird coverage.
+* Smog now has 30 BP and 89.5 Acc.
+* Bone Club now has 99.6 Acc, making it the same as Stomp. Guardia can now Stomp.
+* Bonemerang now has 55 BP and 99.6 Acc, making it objectively stronger than Earthquake. Guardia now has more flavour.
+* Waterfall now has a flinch chance.
+* Spike Cannon is now Steel-type.
+* Constrict is now a 50 BP Grass-type move, targeted at Tangrowth. Also gives a few random Water-types Grass coverage.
+* Kinesis is now a 75 BP, 99.6 Acc, 15 PP Psychic-type move with a 30.1% chance to lower accuracy. "bUT ALAKAZAM BROKEN!" he needs it.
+* Glare now has 99.6 Acc.
+* Poison Gas now has 99.6 Acc.
+* Barrage is now Grass-type with 25 BP. The only Pokemon that get it are Grass-type, so let's allow them to have fun.
+* Leech Life now has 50 BP. You will BURN in the fires of Mt. Moon.
+* Dizzy Punch now has 80 BP and its confusion chance from later gens. KANGA!!!
+* Flash now has 99.6 Acc.
+* Psywave now has 99.6 Acc.
+* Tri Attack now has a 30.1% chance to burn. I could have programmed the real effect, but I am a lazy bitch.
+
+# Statistical changes
+Bird/Flying-related changes are excluded from the list.
+* Significant stat changes are represented in HP / ATK / DEF / SPC / SPE format.
+* All Pokemon are brought to Gen 7 stat standards, save for Farfetch'd. Thus, Golem has 120 Atk, Dodrio has 110 Speed, and so on. These will not be noted further.
+* Additionally, Gen 7 type standards are applied to the Pokemon. Fairy-type Mr. Mime, Wigglytuff, and so on. Magneton is deliberately excluded for Magnezone dichotomy reasons, as this received positive feedback.
+* Ekans and Arbok are now Poison / Dark type.
+* Hypno is now Psychic / Dark type.
+* Kabuto and Kabutops are now Rock / Bug type.
+* Krabby and Kingler are now Water / Bug type.
+* Bellsprout and Weepinbell are now mono-Grass while Victreebel is Grass/Dark. With Bellignan in mind, you now choose the type you receive later.
+* Bittybat line is now Psychic/Flying, accounting for RG asset leak evidence that they were such.
+* Blastyke and Blastoise are now Water/Ground.
+* Butterfree is now Bug/Psychic.
+* Ninetales is now Fire / Psychic type.
+* Carapthor now has 70 Speed, accounting for BST changes to Butterfree and Beedrill.
+* Charizard now has 109 Special. I am here for you to have fun.
+* Totartle's stats have been reworked to be in line with Charizard: 89/87/85/110/78.
+* Venusaur's stats have been reworked to be in line with Charizard: 80/92/83/104/90
+* Raichu and Gorochu are now Electric/Dark, standing in opposition to the Alolan Menace.
+* Orfry line is now Water/Normal and has received a significant statistical rework: Orfry has Goldeen's stats, Goldeen has Seaking's, and Seaking has 85/112/75/90/88.
+* Hitmonchan's stats have been reworked: 65/105/76/95/76. Elemental punches are now usable, but not overshadowing its brilliant Fighting-type prowess. A true mixed attacker.
+* Hitmonlee's stats have been buffed: +15 HP, +5 Spe, +40 Spc.
+* Hitmontop's stats have been buffed: +15 HP, +5 Spe, +40 Spc.
+* Magmortar now has 125 Spc.
+* Parasect has received +10 HP and Spc.
+* Nidoreign now has 102 Atk to account for the Gen 7 Nidoking/queen change.
