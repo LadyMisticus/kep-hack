@@ -109,7 +109,7 @@ Moves:
 	move MEDITATE,     ATTACK_UP1_EFFECT,            0, PSYCHIC_TYPE, 100, 40
 	move AGILITY,      SPEED_UP2_EFFECT,             0, PSYCHIC_TYPE, 100, 30
 	move QUICK_ATTACK, NO_ADDITIONAL_EFFECT,        40, NORMAL,       100, 30
-	move RAGE,         RAGE_EFFECT,                 20, NORMAL,       100, 20
+	move RAGE,         RAGE_EFFECT,                 60, NORMAL,       100, 20 ; Now 60 Base Power
 	move TELEPORT,     SWITCH_AND_TELEPORT_EFFECT,   0, PSYCHIC_TYPE, 100, 20
 	move NIGHT_SHADE,  SPECIAL_DAMAGE_EFFECT,        0, GHOST,        100, 15
 	move MIMIC,        MIMIC_EFFECT,                 0, NORMAL,       100, 10
@@ -132,8 +132,8 @@ Moves:
 	move MIRROR_MOVE,  MIRROR_MOVE_EFFECT,           0, FLYING,       100, 20
 	move SELFDESTRUCT, EXPLODE_EFFECT,             130, NORMAL,       100,  5
 	move EGG_BOMB,     NO_ADDITIONAL_EFFECT,       100, GRASS,         90, 10 ; Now Grass-type for Exeggutor, 90 Acc. Gives Chansey some fun too.
-	move LICK,         PARALYZE_SIDE_EFFECT2,       20, GHOST,        100, 30
-	move SMOG,         POISON_SIDE_EFFECT2,         20, POISON,        70, 20
+	move LICK,         PARALYZE_SIDE_EFFECT2,       40, GHOST,        100, 30
+	move SMOG,         POISON_SIDE_EFFECT2,         30, POISON,        70, 20 ; Now 30 Base Power.
 	move SLUDGE,       POISON_SIDE_EFFECT2,         65, POISON,       100, 20
 	move BONE_CLUB,    FLINCH_SIDE_EFFECT1,         65, GROUND,       100, 20 ; Now 100 Acc. Guardia can now Stomp.
 	move FIRE_BLAST,   BURN_SIDE_EFFECT2,          120, FIRE,          85,  5
@@ -220,10 +220,10 @@ Moves:
 	move SCISSOR_STUN,	PARALYZE_SIDE_EFFECT2,		 80, BUG,		100, 15 ; Bug Body Slam, taken from Paralysing Scissors.
 	move FLARE,			BURN_SIDE_EFFECT1,		 	 40, DRAGON,	100, 30
 	move MEGAFLARE,		BURN_SIDE_EFFECT1,			 65, DRAGON,	100, 20
-	move GIGAFLARE,		BURN_SIDE_EFFECT2,			100, DRAGON,	100, 10
-	move BOG_BURY,		SPEED_DOWN_SIDE_EFFECT,		 65, GROUND,	100, 20
+	move GIGAFLARE,		BURN_SIDE_EFFECT2,			100, DRAGON,	 85, 10
+	move DUST_CLOUD,	ACCURACY_DOWN_SIDE_EFFECT,	 50, GROUND,	100, 20
 	move SAND_TOMB,     TRAPPING_EFFECT,             35, GROUND,     85, 15
 	move OUTRAGE,       THRASH_PETAL_DANCE_EFFECT,  120, DRAGON,    100, 20 
-	move STAR_FREEZE,   FREEZE_SIDE_EFFECT2,  		120, WATER,    	 70, 5 ; If any cocksure RBYer tries to give some competitive justification for this fork, then I will show them this, and hope they go away. I am literally giving Starmie STAB Blizzard with RG Freeze chance. Shush.
+	move SHADOW_SNEAK,  NO_ADDITIONAL_EFFECT,  		 50, GHOST,    	100, 30 ; 50 bp instead of 40, since Lick was buffed 
 	move STRUGGLE,		RECOIL_EFFECT,				 50, NORMAL,    100, 10
 	assert_table_length NUM_ATTACKS

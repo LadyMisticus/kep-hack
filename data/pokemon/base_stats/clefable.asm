@@ -1,6 +1,6 @@
 	db DEX_CLEFABLE ; pokedex id
 
-	db  95,  70,  73,  60,  95
+	db  95,  70,  73,  60,  95 ; +10 spc
 	;   hp  atk  def  spd  spc
 
 	db FAIRY, FAIRY ; type

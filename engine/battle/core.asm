@@ -374,7 +374,9 @@ MainInBattleLoop:
 .noLinkBattle
 	ld a, [wPlayerSelectedMove]
 	cp BULLET_PUNCH
-      jr z, .PriorityMoveUsed
+	jr z, .PriorityMoveUsed
+	cp SHADOW_SNEAK
+	jr z, .PriorityMoveUsed
 	cp QUICK_ATTACK
 	jr nz, .playerDidNotUseQuickAttack
 .PriorityMoveUsed

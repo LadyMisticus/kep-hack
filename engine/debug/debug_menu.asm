@@ -120,13 +120,13 @@ TestBattle:
 	; This function gives you a way to waste a turn, never know when you'll need it.
 	; Alternatively, add a move to test.
 	ld hl, wPartyMon1Moves
-	ld a, REPRIMAND ; New move animation test
+	ld a, FLARE ; New move animation test
 	ld [hli], a
-	ld a, NEUROTOXIN ; New move animation test
+	ld a, MEGAFLARE ; New move animation test
 	ld [hli], a
 	ld a, SHADOW_BALL ; New move animation test
 	ld [hli], a
-	ld a, HYDRO_CANNON ; Skip turn, New move animation test
+	ld a, SHADOW_SNEAK ; Skip turn, New move animation test
 	ld [hli], a
 	
 	; Opponent's Pokemon.

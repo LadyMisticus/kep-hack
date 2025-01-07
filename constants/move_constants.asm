@@ -219,10 +219,10 @@
 	const FLARE
 	const MEGAFLARE
 	const GIGAFLARE ; insert line where I thirst for Sephiroth here
-	const BOG_BURY
+	const DUST_CLOUD ; Used to be a move that would drag the opposing Pokemon down, but it didn't pan out.
 	const SAND_TOMB
 	const OUTRAGE
-	const STAR_FREEZE ; Starmie is gonna love this one
+	const SHADOW_SNEAK ; Starmie is gonna love this one
 	const STRUGGLE     ; formerly a5
 DEF NUM_ATTACKS EQU const_value - 1
 

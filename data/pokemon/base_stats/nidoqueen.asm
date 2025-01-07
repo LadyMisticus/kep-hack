@@ -1,6 +1,6 @@
 	db DEX_NIDOQUEEN ; pokedex id
 
-	db  90,  82,  87,  76,  75
+	db  90,  92,  87,  76,  75 ; +10 atk
 	;   hp  atk  def  spd  spc
 
 	db POISON, GROUND ; type

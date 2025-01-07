@@ -208,13 +208,13 @@ MoveSoundTable:
 	db SFX_DAMAGE,             $10, $40 ; TOMBSTONER
 	db SFX_BATTLE_32,          $08, $e0 ; ROCK_BLAST
 	db SFX_BATTLE_1E,          $00, $80 ; SCISSOR_STUN
-	db SFX_BATTLE_29,          $f0, $80 ; FLARE
+	db SFX_BATTLE_29,          $f0, $60 ; FLARE
 	db SFX_BATTLE_29,          $f0, $80 ; MEGAFLARE
 	db SFX_BATTLE_29,          $FF, $90 ; GIGAFLARE
 	db SFX_DAMAGE,             $10, $40 ; BOG_BURY
 	db SFX_BATTLE_29,          $20, $c0 ; SAND_TOMB
 	db SFX_BATTLE_29,          $f0, $80 ; OUTRAGE
-	db SFX_BATTLE_36,          $f0, $40 ; STAR_FREEZE
+	db SFX_BATTLE_25,          $00, $10 ; SHADOW_SNEAK
 	db SFX_BATTLE_0B,          $00, $80 ; STRUGGLE
 	assert_table_length NUM_ATTACKS
 

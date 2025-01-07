@@ -1,6 +1,6 @@
 	db DEX_NIDOREIGN ; pokedex id
 
-	db  90,  92,  87,  85,  75
+	db  90, 102,  87,  85,  75 ; +10 atk
 	;   hp  atk  def  spd  spc
 
 	db POISON, ROCK ; type
