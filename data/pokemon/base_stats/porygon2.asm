@@ -3,7 +3,7 @@
 	db  85,  80,  90,  60,  95
 	;   hp  atk  def  spd  spc
 
-	db NORMAL, NORMAL ; type
+	db NORMAL, BIRD ; type
 	db 45 ; catch rate
 	db 180 ; base exp
 

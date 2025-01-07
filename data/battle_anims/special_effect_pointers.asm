@@ -44,4 +44,5 @@ SpecialEffectPointers:
 	special_effect SE_SHAKE_BACK_AND_FORTH,      AnimationShakeBackAndForth       ; $DA
 	special_effect SE_SUBSTITUTE_MON,            AnimationSubstitute              ; $D9
 	special_effect SE_WAVY_SCREEN,               AnimationWavyScreen              ; $D8
+	special_effect SE_SLIDE_ENEMY_MON_DOWN,		 AnimationSlideEnemyMonDown		  ; $D...uhhh
 	db -1 ; end

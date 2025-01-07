@@ -1,3 +1,6 @@
+; A few moves were cut in the making of this for 8-bit register reasons. They're largely just useless ones though.
+; This does include the famous "walls" but do you really want light screen clones?
+
 ; move ids
 ; indexes for:
 ; - Moves (see data/moves/moves.asm)
@@ -192,7 +195,55 @@
 	const NASTY_PLOT   ; b8
 	const UPPERCUT	   ; b9
 	const POWDER_SNOW	; b10
-	const STRUGGLE     ; formerly a5, now c0
+;	const HURRICANE annoying to animate
+	const DUAL_WINGBEAT
+	const STORMWINDS ; Special-lowering move
+;	const FEATHERDANCE
+	const TALON_STRIKE
+	const LEEK_SLAP
+	const FRENZY_PLANT
+	const ROCK_WRECKER
+	const BLAST_BURN
+	const HYDRO_CANNON
+;	const PUNCH
+;	const KICK
+	const LUNGE
+	const CHATTER ; Unused Sound move index 65
+	const REPRIMAND ; Evasion-lowering move
+	const GASTROJUICE ; "Gastro Acid"
+	const NEUROTOXIN ; Strong Poison move
+	const SLUDGE_SPRAY
+	const SLUDGE_BOMB
+	const RAPID_JAB
+	const POLLINATE
+	const VINE_SLAM
+	const SYNTHESIS
+	const MANDIBITE ; Bug move
+	const SIGNAL_BEAM ; Bug move, suits the unused beam move slot.
+;	const FIRE_WALL ; the walls
+;	const AQUA_WALL
+;	const MOSS_WALL
+	const SPARK
+;	const MAGNETIZE
+	const OVERLOAD
+	const GIGAVOLT ; Gorochu, 500,000 volts
+	const TOMBSTONER
+	const ROCK_BLAST
+	const SCISSOR_STUN
+	const FLARE
+	const MEGAFLARE
+	const GIGAFLARE ; insert line where I thirst for Sephiroth here
+	const DRAGONBREATH
+;	const DUAL_CHOP
+	const TWISTER
+	const DUST_CLOUD
+;	const SAND_WAVE
+	const BOG_BURY
+	const SAND_TOMB
+	const OUTRAGE
+;	const RAGING_FURY
+	const STAR_FREEZE ; Starmie is gonna love this one
+	const STRUGGLE     ; formerly a5
 DEF NUM_ATTACKS EQU const_value - 1
 
 	; Moves do double duty as animation identifiers.

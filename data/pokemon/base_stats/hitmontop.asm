@@ -1,6 +1,6 @@
 	db DEX_HITMONTOP ; pokedex id
 
-	db  50,  95,  95,  70,  35
+	db  65,  95,  95,  75,  75
 	;   hp  atk  def  spd  spc
 
 	db FIGHTING, FIGHTING ; type

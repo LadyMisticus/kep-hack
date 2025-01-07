@@ -1,9 +1,9 @@
 	db DEX_SEAKING ; pokedex id
 
-	db  80,  92,  65,  68,  80
+	db  85, 112,  75,  88,  90 ; BST: 450
 	;   hp  atk  def  spd  spc
 
-	db WATER, WATER ; type
+	db WATER, NORMAL ; type
 	db 60 ; catch rate
 	db 170 ; base exp
 

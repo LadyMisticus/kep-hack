@@ -1172,6 +1172,11 @@ AnimationSlideMonDown:
 	jr nz, .loop
 	ret
 
+AnimationSlideEnemyMonDown:
+; Slides the enemy mon down, used for Tombstoner and Bog Bury.
+	ld hl, AnimationSlideMonDown
+	jp CallWithTurnFlipped
+
 AnimationSlideMonOff:
 ; Slides the mon's sprite off the screen horizontally.
 	ld e, 8

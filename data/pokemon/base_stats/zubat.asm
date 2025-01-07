@@ -3,7 +3,7 @@
 	db  40,  45,  35,  55,  40
 	;   hp  atk  def  spd  spc
 
-	db POISON, FLYING ; type
+	db PSYCHIC_TYPE, FLYING ; type
 	db 255 ; catch rate
 	db 54 ; base exp
 
@@ -16,7 +16,7 @@
 	; tm/hm learnset
 	tmhm RAZOR_WIND,   WHIRLWIND,    TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  \
 	     RAGE,         MEGA_DRAIN,   MIMIC,        DOUBLE_TEAM,  BIDE,         \
-	     SWIFT,        REST,         SUBSTITUTE
+	     SWIFT,        REST,         SUBSTITUTE, PSYWAVE, PSYCHIC_M, DREAM_EATER
 	; end
 
 	db BANK(ZubatPicFront)

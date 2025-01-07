@@ -1,9 +1,9 @@
 	db DEX_GOLDUCK ; pokedex id
 
-	db  80,  82,  78,  85,  80
+	db  80,  92,  78,  85,  90 ; +10 Atk and Spc
 	;   hp  atk  def  spd  spc
 
-	db WATER, WATER ; type
+	db WATER, BIRD ; type
 	db 75 ; catch rate
 	db 174 ; base exp
 

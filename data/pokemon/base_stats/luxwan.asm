@@ -3,7 +3,7 @@
 	db  72, 105,  75,  70,  63
 	;   hp  atk  def  spd  spc
 
-	db NORMAL, FLYING ; type
+	db BIRD, BIRD ; now mono-Bird
 	db 25 ; catch rate
 	db 196 ; base exp
 

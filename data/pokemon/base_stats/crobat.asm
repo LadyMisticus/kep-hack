@@ -3,7 +3,7 @@
 	db  85,  90,  80, 130,  80
 	;   hp  atk  def  spd  spc
 
-	db POISON, FLYING ; type
+	db PSYCHIC_TYPE, FLYING ; type
 	db 90 ; catch rate
 	db 204 ; base exp
 
@@ -17,7 +17,7 @@
 	tmhm RAZOR_WIND,   WHIRLWIND,    TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  \
 	     HYPER_BEAM,   RAGE,         MEGA_DRAIN,   MIMIC,        DOUBLE_TEAM,  \
 	     BIDE,         SWIFT,        SKY_ATTACK,   REST,         SUBSTITUTE,   \
-	     FLY
+	     FLY, PSYCHIC_M, PSYWAVE, DREAM_EATER
 	; end
 
 	db BANK(CrobatPicFront)

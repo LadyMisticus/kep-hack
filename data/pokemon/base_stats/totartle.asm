@@ -1,6 +1,6 @@
 	db DEX_TOTARTLE ; pokedex id
 
-	db  79,  83,  85,  78, 100
+	db  89,  87,  85,  78, 110 ; 449 BST to match Charizard yes I am going this far to justify 109 Spc Charizard in my funny game
 	;   hp  atk  def  spd  spc
 
 	db WATER, GRASS ; type

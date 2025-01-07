@@ -1,6 +1,6 @@
 	db DEX_MAGMORTAR ; pokedex id
 
-	db  75,  95,  67,  83,  95
+	db  75,  95,  67,  83,  125 ; Fine take it u fucks
 	;   hp  atk  def  spd  spc
 
 	db FIRE, FIRE ; type

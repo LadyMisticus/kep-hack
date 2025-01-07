@@ -3,7 +3,7 @@
 	db  90,  85,  90,  90, 125
 	;   hp  atk  def  spd  spc
 
-	db DARK, FLYING ; type
+	db DARK, BIRD ; type
 	db 3 ; catch rate
 	db 217 ; base exp
 

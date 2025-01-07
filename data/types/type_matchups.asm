@@ -1,3 +1,12 @@
+; KEPiversary Edition splits Flying and adds Bird.
+; Bird is super-effective against: Bug, Grass
+; Bird is not very effective against: Rock, Steel
+; Bird is weak to: Poison, Rock
+; Bird resists: Bug, Grass
+
+; Flying loses its super-effectiveness against Bug and Grass.
+; Flying maintains its Rock/Steel MUs. The sole difference is Bug/Grass matchups.
+
 TypeEffects:
 	;  attacker,     defender,     *=
 	db WATER,        FIRE,         SUPER_EFFECTIVE
@@ -29,7 +38,7 @@ TypeEffects:
 	db GRASS,        BUG,          NOT_VERY_EFFECTIVE
 	db GRASS,        POISON,       NOT_VERY_EFFECTIVE
 	db GRASS,        ROCK,         SUPER_EFFECTIVE
-	db GRASS,        FLYING,       NOT_VERY_EFFECTIVE
+	db GRASS,        BIRD,         NOT_VERY_EFFECTIVE
 	db ICE,          WATER,        NOT_VERY_EFFECTIVE
 	db ICE,          GRASS,        SUPER_EFFECTIVE
 	db ICE,          GROUND,       SUPER_EFFECTIVE
@@ -56,15 +65,15 @@ TypeEffects:
 	db GROUND,       POISON,       SUPER_EFFECTIVE
 	db FLYING,       ELECTRIC,     NOT_VERY_EFFECTIVE
 	db FLYING,       FIGHTING,     SUPER_EFFECTIVE
-	db FLYING,       BUG,          SUPER_EFFECTIVE
-	db FLYING,       GRASS,        SUPER_EFFECTIVE
+	db BIRD,       	 BUG,          SUPER_EFFECTIVE
+	db BIRD,       	 GRASS,        SUPER_EFFECTIVE
 	db FLYING,       ROCK,         NOT_VERY_EFFECTIVE
 	db PSYCHIC_TYPE, FIGHTING,     SUPER_EFFECTIVE
 	db PSYCHIC_TYPE, POISON,       SUPER_EFFECTIVE
 	db BUG,          FIRE,         NOT_VERY_EFFECTIVE
 	db BUG,          GRASS,        SUPER_EFFECTIVE
 	db BUG,          FIGHTING,     NOT_VERY_EFFECTIVE
-	db BUG,          FLYING,       NOT_VERY_EFFECTIVE
+	db BUG,          BIRD,         NOT_VERY_EFFECTIVE
 	db BUG,          PSYCHIC_TYPE, SUPER_EFFECTIVE
 	db BUG,          GHOST,        NOT_VERY_EFFECTIVE
 	db BUG,          POISON,       SUPER_EFFECTIVE
@@ -97,6 +106,7 @@ TypeEffects:
 	db WATER,        STEEL,        SUPER_EFFECTIVE
 	db ELECTRIC,     STEEL,        SUPER_EFFECTIVE
 	db POISON,       STEEL,        NOT_VERY_EFFECTIVE
+	db POISON,		 BIRD,		   SUPER_EFFECTIVE
 	db FIGHTING,     STEEL,        NOT_VERY_EFFECTIVE
 	db FAIRY,        DRAGON,       SUPER_EFFECTIVE
 	db FAIRY,        DARK,         SUPER_EFFECTIVE
@@ -113,4 +123,7 @@ TypeEffects:
 	db STEEL,        FAIRY,        SUPER_EFFECTIVE
 	db DRAGON,       FAIRY,        NO_EFFECT
 	db ROCK,         STEEL,        NOT_VERY_EFFECTIVE
+	db ROCK,		 BIRD,		   SUPER_EFFECTIVE
+	db BIRD,		 STEEL,		   NOT_VERY_EFFECTIVE
+	db BIRD,		 ROCK,		   NOT_VERY_EFFECTIVE
 	db -1 ; end

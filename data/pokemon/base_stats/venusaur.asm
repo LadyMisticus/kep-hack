@@ -1,6 +1,6 @@
 	db DEX_VENUSAUR ; pokedex id
 
-	db  80,  82,  83,  80, 100
+	db  80,  92,  83,  90, 104 ; 449 BST Venusaur to match Charizard
 	;   hp  atk  def  spd  spc
 
 	db GRASS, POISON ; type

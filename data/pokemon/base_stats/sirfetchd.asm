@@ -3,7 +3,7 @@
 	db  62, 135,  95,  65,  68
 	;   hp  atk  def  spd  spc
 
-	db FIGHTING, FIGHTING ; type
+	db BIRD, FIGHTING ; now bird/fighting
 	db 25 ; catch rate
 	db 196 ; base exp
 

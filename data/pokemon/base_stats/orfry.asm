@@ -1,9 +1,9 @@
 	db DEX_ORFRY ; pokedex id
 
-	db  35,  57,  50,  53,  40
+	db  45,  67,  60,  63,  50 ; Now has Goldeen's stats
 	;   hp  atk  def  spd  spc
 
-	db WATER, WATER ; type
+	db WATER, NORMAL ; type
 	db 255 ; catch rate
 	db 57 ; base exp
 
