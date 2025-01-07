@@ -120,11 +120,11 @@ TestBattle:
 	; This function gives you a way to waste a turn, never know when you'll need it.
 	; Alternatively, add a move to test.
 	ld hl, wPartyMon1Moves
-	ld a, FRENZY_PLANT ; New move animation test
+	ld a, REPRIMAND ; New move animation test
 	ld [hli], a
-	ld a, ROCK_WRECKER ; New move animation test
+	ld a, NEUROTOXIN ; New move animation test
 	ld [hli], a
-	ld a, BLAST_BURN ; New move animation test
+	ld a, SHADOW_BALL ; New move animation test
 	ld [hli], a
 	ld a, HYDRO_CANNON ; Skip turn, New move animation test
 	ld [hli], a

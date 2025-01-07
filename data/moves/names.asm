@@ -196,7 +196,7 @@ MoveNames:: ; 12chr limit
 	li "HYDROCANNON"
 	li "REPRIMAND"
 	li "NEUROTOXIN"
-	li "SLUDGESPRAY"
+	li "SHADOW BALL"
 	li "SLUDGE BOMB"
 	li "POLLINATE"
 	li "MANDIBITE"

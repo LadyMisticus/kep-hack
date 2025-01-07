@@ -205,7 +205,7 @@
 	const HYDRO_CANNON
 	const REPRIMAND ; Evasion-lowering move
 	const NEUROTOXIN ; Strong Poison move
-	const SLUDGE_SPRAY
+	const SHADOW_BALL
 	const SLUDGE_BOMB
 	const POLLINATE
 	const MANDIBITE ; Bug move

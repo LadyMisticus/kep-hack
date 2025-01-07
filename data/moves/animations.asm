@@ -196,7 +196,7 @@ AttackAnimationPointers:
 	dw HydroCannonAnim
 	dw ReprimandAnim
 	dw NeurotoxinAnim
-	dw SludgeSprayAnim
+	dw ShadowBallAnim
 	dw SludgeBombAnim
 	dw PollinateAnim
 	dw MandibiteAnim
@@ -1287,9 +1287,11 @@ SludgeBombAnim:
 	battle_anim NO_MOVE, SE_DARK_SCREEN_FLASH
 	db -1 ; end
 
-SludgeSprayAnim:
-	battle_anim ACID, SUBANIM_1_BLOB_TOSS, 1, 6
-	battle_anim SLUDGE, SUBANIM_1_BLOB_DRIP_ENEMY, 1, 6
+ShadowBallAnim:
+	battle_anim NO_MOVE, SE_DARK_SCREEN_PALETTE
+	battle_anim SMOG, SUBANIM_1_CIRCLE_BLACK_TOSS, 1, 3
+	battle_anim NO_MOVE, SUBANIM_0_STAR_HIGH, 0, 5
+	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
 	db -1 ; end
 
 LickAnim:
