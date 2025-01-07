@@ -786,17 +786,8 @@ OutrageAnim:
 	battle_anim GROWTH, SE_SHAKE_BACK_AND_FORTH
 	battle_anim NO_MOVE, SE_MOVE_MON_HORIZONTALLY
 	battle_anim THRASH, SE_DARK_SCREEN_FLASH
-	battle_anim NO_MOVE, SUBANIM_0_WATER_1_FIRE_GEYSER, 1, 6
-	battle_anim NO_MOVE, SE_RESET_MON_POSITION
-	db -1 ; end
-
-RagingFuryAnim:
-	battle_anim GROWTH, SE_SHAKE_BACK_AND_FORTH
-	battle_anim NO_MOVE, SE_MOVE_MON_HORIZONTALLY
-	battle_anim DRAGON_RAGE, SE_DARK_SCREEN_FLASH
-	battle_anim NO_MOVE, SUBANIM_1_FLAME_COLUMN_1, 1, 6
 	battle_anim NO_MOVE, SUBANIM_1_FLAME_COLUMN_2, 1, 6
-	battle_anim NO_MOVE, SUBANIM_1_FLAMES, 1, 6
+	battle_anim NO_MOVE, SUBANIM_1_FLAME_COLUMN_3, 1, 6
 	battle_anim NO_MOVE, SE_RESET_MON_POSITION
 	db -1 ; end
 
@@ -1241,8 +1232,8 @@ BarrierAnim:
 
 LightScreenAnim:
 	battle_anim NO_MOVE, SE_LIGHT_SCREEN_PALETTE
-	battle_anim LIGHT_SCREEN, SUBANIM_0_WATER_1_FIRE_BARRIER, 1, 6
-	battle_anim LIGHT_SCREEN, SUBANIM_0_WATER_1_FIRE_BARRIER, 1, 6
+	battle_anim LIGHT_SCREEN, SUBANIM_1_BARRIER, 1, 6
+	battle_anim LIGHT_SCREEN, SUBANIM_1_BARRIER, 1, 6
 	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
 	db -1 ; end
 

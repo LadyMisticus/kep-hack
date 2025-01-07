@@ -12,20 +12,8 @@ ENDM
 
 AnimationIdSpecialEffects:
 	; animation id, effect routine address
-;	anim_special_effect MEGA_PUNCH,            AnimationFlashScreen Replaced with a black screen
-;	anim_special_effect GUILLOTINE,            AnimationFlashScreen Replaced with a black screen
-;	anim_special_effect MEGA_KICK,             AnimationFlashScreen Replaced with a black screen
 	anim_special_effect HEADBUTT,              AnimationFlashScreen
-	anim_special_effect TAIL_WHIP,             TailWhipAnimationUnused
 	anim_special_effect GROWL,                 DoGrowlSpecialEffects
-;	anim_special_effect DISABLE,               AnimationFlashScreen
-;	anim_special_effect BLIZZARD,              DoBlizzardSpecialEffects
-;	anim_special_effect BUBBLEBEAM,            AnimationFlashScreen unnecessary...
-;	anim_special_effect HYPER_BEAM,            FlashScreenEveryFourFrameBlocks
-;	anim_special_effect THUNDERBOLT,           FlashScreenEveryEightFrameBlocks ; Replaced with a black screen animation
-;	anim_special_effect REFLECT,               AnimationFlashScreen worst animation in the game, easily
-;	anim_special_effect SELFDESTRUCT,          DoExplodeSpecialEffects ; Uses a white screen
-;	anim_special_effect SPORE,                 AnimationFlashScreen lol why'd they do this
 	anim_special_effect EXPLOSION,             DoExplodeSpecialEffects ; Now uses a black screen
 	anim_special_effect ROCK_SLIDE,            DoRockSlideSpecialEffects ; This one was fixed in-script.
 	anim_special_effect TRADE_BALL_DROP_ANIM,  TradeHidePokemon
