@@ -350,9 +350,10 @@ INCLUDE "engine/overworld/use_another_repel.asm"
 
 SECTION "bank1E", ROMX
 
-INCLUDE "engine/battle/animations.asm"
 INCLUDE "data/moves/animations.asm"
 INCLUDE "data/battle_anims/frame_blocks.asm"
+INCLUDE "data/battle_anims/subanimations.asm"
+INCLUDE "engine/battle/animations.asm"
 
 SECTION "Engine Spillover", ROMX
 
@@ -363,7 +364,6 @@ INCLUDE "engine/items/tm_prices.asm"
 INCLUDE "engine/overworld/ferry_script.asm"
 INCLUDE "engine/overworld/cut2.asm"
 INCLUDE "engine/overworld/dust_smoke.asm"
-INCLUDE "data/battle_anims/subanimations.asm"
 
 _PartyMenuBattleTentText::
 	text "Select which"

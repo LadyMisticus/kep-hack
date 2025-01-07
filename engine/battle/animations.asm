@@ -408,7 +408,7 @@ MoveAnimation:
 	call WaitForSoundToFinish
 	xor a
 	ld [wSubAnimSubEntryAddr], a
-	ld [wUnusedD09B], a
+;	ld [wUnusedD09B], a
 	ld [wSubAnimTransform], a
 	dec a ; NO_MOVE - 1
 	ld [wAnimSoundID], a
@@ -807,15 +807,15 @@ DoExplodeSpecialEffects:
 
 ; flashes the screen at 3 points in the subanimation
 ; unused
-FlashScreenUnused:
-	ld a, [wSubAnimCounter]
-	cp 14
-	jp z, AnimationFlashScreen
-	cp 9
-	jp z, AnimationFlashScreen
-	cp 2
-	jp z, AnimationFlashScreen
-	ret
+;FlashScreenUnused:
+;	ld a, [wSubAnimCounter]
+;	cp 14
+;	jp z, AnimationFlashScreen
+;	cp 9
+;	jp z, AnimationFlashScreen
+;	cp 2
+;	jp z, AnimationFlashScreen
+;	ret
 
 ; function to make the pokemon disappear at the beginning of the animation
 TradeHidePokemon:
@@ -913,11 +913,11 @@ DoGrowlSpecialEffects:
 	ret
 
 ; this is associated with Tail Whip, but Tail Whip doesn't use any subanimations
-TailWhipAnimationUnused:
-	ld a, 1
-	ld [wSubAnimCounter], a
-	ld c, 20
-	jp DelayFrames
+;TailWhipAnimationUnused:
+;	ld a, 1
+;	ld [wSubAnimCounter], a
+;	ld c, 20
+;	jp DelayFrames
 
 INCLUDE "data/battle_anims/special_effect_pointers.asm"
 
@@ -1039,30 +1039,30 @@ AnimationDarkenMonPalette:
 	lb bc, $f9, $f4
 	jr SetAnimationBGPalette
 
-AnimationUnusedPalette1:
-	lb bc, $fe, $f8
-	jr SetAnimationBGPalette
+;AnimationUnusedPalette1:
+;	lb bc, $fe, $f8
+;	jr SetAnimationBGPalette
 
-AnimationUnusedPalette2:
-	lb bc, $ff, $ff
-	jr SetAnimationBGPalette
+;AnimationUnusedPalette2:
+;	lb bc, $ff, $ff
+;	jr SetAnimationBGPalette
 
 AnimationResetScreenPalette:
 ; Restores the screen's palette to the normal palette.
 	lb bc, $e4, $e4
 	jr SetAnimationBGPalette
 
-AnimationUnusedPalette3:
-	lb bc, $00, $00
-	jr SetAnimationBGPalette
+;AnimationUnusedPalette3:
+;	lb bc, $00, $00
+;	jr SetAnimationBGPalette
 
 AnimationLightScreenPalette:
 ; Changes the screen to use a palette with light colors.
 	lb bc, $90, $90
 	jr SetAnimationBGPalette
 
-AnimationUnusedPalette4:
-	lb bc, $40, $40
+;AnimationUnusedPalette4:
+;	lb bc, $40, $40
 
 SetAnimationBGPalette:
 	ld a, [wOnSGB]
@@ -1101,13 +1101,13 @@ AnimationWaterDropletsEverywhere:
 .loop
 	ld a, 16
 	ld [wBaseCoordY], a
-	ld a, 0
-	ld [wUnusedD08A], a
+;	ld a, 0 ????
+;	ld [wUnusedD08A], a
 	call _AnimationWaterDroplets
 	ld a, 24
 	ld [wBaseCoordY], a
-	ld a, 32
-	ld [wUnusedD08A], a
+;	ld a, 32
+;	ld [wUnusedD08A], a
 	call _AnimationWaterDroplets
 	dec d
 	jr nz, .loop
@@ -1688,13 +1688,13 @@ AnimationShootManyBallsUpward:
 
 UpwardBallsAnimXCoordinatesPlayerTurn:
 ; List of x coordinates for each pillar of "energy" balls in the
-; AnimationShootManyBallsUpward animation. It's unused in the game.
+; AnimationShootManyBallsUpward animation.
 	db $10, $40, $28, $18, $38, $30
 	db -1 ; end
 
 UpwardBallsAnimXCoordinatesEnemyTurn:
 ; List of x coordinates for each pillar of "energy" balls in the
-; AnimationShootManyBallsUpward animation. It's unused in the game.
+; AnimationShootManyBallsUpward animation.
 	db $60, $90, $78, $68, $88, $80
 	db -1 ; end
 
