@@ -186,36 +186,22 @@ AttackAnimationPointers:
 	dw NastyPlotAnim
 	dw UppercutAnim
 	dw PowderSnowAnim
-;	dw HurricaneAnim annoying to animate
 	dw DualWingbeatAnim
 	dw StormwindsAnim
-;	dw FeatherdanceAnim
 	dw TalonStrikeAnim
 	dw LeekSlapAnim
 	dw FrenzyPlantAnim
 	dw RockWreckerAnim
 	dw BlastBurnAnim
 	dw HydroCannonAnim
-;	dw PunchAnim
-;	dw KickAnim
-	dw LungeAnim
-	dw ChatterAnim
 	dw ReprimandAnim
-	dw GastroJuiceAnim
 	dw NeurotoxinAnim
 	dw SludgeSprayAnim
 	dw SludgeBombAnim
-	dw RapidJabAnim
 	dw PollinateAnim
-	dw VineSlamAnim
-	dw SynthesisAnim
 	dw MandibiteAnim
 	dw SignalBeamAnim
-;	dw FireWallAnim
-;	dw AquaWallAnim
-;	dw MossWallAnim
 	dw SparkAnim
-;	dw MagnetizeAnim
 	dw OverloadAnim
 	dw GigavoltAnim
 	dw TombstonerAnim
@@ -224,16 +210,9 @@ AttackAnimationPointers:
 	dw FlareAnim
 	dw MegaflareAnim
 	dw GigaflareAnim
-	dw DragonbreathAnim
-;	dw DualChopAnim
-	dw TwisterAnim
-	dw DustCloudAnim
-;	dw SandWaveAnim
 	dw BogBuryAnim
 	dw SandTombAnim
-;	dw InfestationAnim
 	dw OutrageAnim
-;	dw RagingFuryAnim
 	dw StarFreezeAnim
 	dw StruggleAnim
 	assert_table_length NUM_ATTACKS
