@@ -3,7 +3,9 @@ Kanto Expansion Pak: KEPiversary Edition
 This is Plague von Karma's KEP fork, containing many changes that were considered out of the scope of the original Kanto Expansion Pak.
 
 # Move changes
-KEPiversary Edition adds numerous new moves to the game, aiming to make use of unused effects and populate some oft-forgotten types. This was bottlenecked by the 8-bit registers used by the game: The banks are now full, all KEPs are off!
+KEPiversary Edition adds numerous new moves to the game, aiming to make use of unused effects and populate some oft-forgotten types. This was bottlenecked by the 8-bit registers used by the game: The banks are now full, all KEPs are off! 
+
+# For ANY specific "does this Pokemon get this" questions, look [here](https://github.com/PlagueVonKarma/kep-hack/blob/the-kepiversary/data/pokemon/evos_moves.asm) and Ctrl+F. 
 
 ## Flying-Bird Split
 KEPiversary Edition splits Flying into Bird and Flying, speculating on the hypothetical existence of the Bird type. There is ample vestigial evidence of how the type would have worked had it been in the game: I very nearly put this rework into the final KEP release, but decided against it for the vanilla purity ethos.
