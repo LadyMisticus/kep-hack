@@ -62,6 +62,7 @@ TypeEffects:
 	db GROUND,       ELECTRIC,     SUPER_EFFECTIVE
 	db GROUND,       GRASS,        NOT_VERY_EFFECTIVE
 	db GROUND,       BUG,          NOT_VERY_EFFECTIVE
+	db GROUND,       BIRD,         NOT_VERY_EFFECTIVE
 	db GROUND,       ROCK,         SUPER_EFFECTIVE
 	db GROUND,       POISON,       SUPER_EFFECTIVE
 	db FLYING,       ELECTRIC,     NOT_VERY_EFFECTIVE
@@ -125,6 +126,7 @@ TypeEffects:
 	db DRAGON,       FAIRY,        NO_EFFECT
 	db ROCK,         STEEL,        NOT_VERY_EFFECTIVE
 	db ROCK,		 BIRD,		   SUPER_EFFECTIVE
+	db BIRD,		 FLYING,		SUPER_EFFECTIVE
 	db BIRD,		 STEEL,		   NOT_VERY_EFFECTIVE
 	db BIRD,		 ROCK,		   NOT_VERY_EFFECTIVE
 	db -1 ; end

@@ -120,7 +120,7 @@ TestBattle:
 	; This function gives you a way to waste a turn, never know when you'll need it.
 	; Alternatively, add a move to test.
 	ld hl, wPartyMon1Moves
-	ld a, FLARE ; New move animation test
+	ld a, DRAGONBREATH ; New move animation test
 	ld [hli], a
 	ld a, MEGAFLARE ; New move animation test
 	ld [hli], a

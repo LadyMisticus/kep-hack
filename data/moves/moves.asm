@@ -46,7 +46,7 @@ Moves:
 	move TACKLE,       NO_ADDITIONAL_EFFECT,        35, NORMAL,        95, 35
 	move BODY_SLAM,    PARALYZE_SIDE_EFFECT2,       85, NORMAL,       100, 15
 	move WRAP,         TRAPPING_EFFECT,             15, NORMAL,        85, 20
-	move TAKE_DOWN,    RECOIL_EFFECT,               90, NORMAL,        85, 20
+	move TAKE_DOWN,    RECOIL_EFFECT,               90, NORMAL,       100, 20 ; Now 100 Acc
 	move THRASH,       THRASH_PETAL_DANCE_EFFECT,  120, NORMAL,       100, 20 ; Now 120 Base Power
 	move DOUBLE_EDGE,  RECOIL_EFFECT,              120, NORMAL,       100, 15 ; Now 120 Base Power
 	move TAIL_WHIP,    DEFENSE_DOWN1_EFFECT,         0, NORMAL,       100, 30
@@ -60,7 +60,7 @@ Moves:
 	move SING,         SLEEP_EFFECT,                 0, NORMAL,        60, 15 ; Now 60% accuracy
 	move SUPERSONIC,   CONFUSION_EFFECT,             0, NORMAL,        55, 20
 	move SONICBOOM,    SPECIAL_DAMAGE_EFFECT,        1, NORMAL,        90, 20
-	move DISABLE,      DISABLE_EFFECT,               0, NORMAL,        55, 20
+	move DISABLE,      DISABLE_EFFECT,               0, NORMAL,       100, 20 ; Now 100 acc
 	move ACID,         DEFENSE_DOWN_SIDE_EFFECT,    50, POISON,       100, 30 ; Now 50 Base Power
 	move EMBER,        BURN_SIDE_EFFECT1,           40, FIRE,         100, 25
 	move FLAMETHROWER, BURN_SIDE_EFFECT1,           95, FIRE,         100, 15
@@ -98,7 +98,7 @@ Moves:
 	move THUNDERBOLT,  PARALYZE_SIDE_EFFECT1,       95, ELECTRIC,     100, 15
 	move THUNDER_WAVE, PARALYZE_EFFECT,              0, ELECTRIC,     100, 20
 	move THUNDER,      PARALYZE_SIDE_EFFECT2,      120, ELECTRIC,      70, 10
-	move ROCK_THROW,   NO_ADDITIONAL_EFFECT,        50, ROCK,          65, 15
+	move ROCK_THROW,   NO_ADDITIONAL_EFFECT,        50, ROCK,          90, 15 ; Now 89.5 acc
 	move EARTHQUAKE,   NO_ADDITIONAL_EFFECT,       100, GROUND,       100, 10
 	move FISSURE,      OHKO_EFFECT,                  1, GROUND,        30,  5
 	move DIG,          CHARGE_EFFECT,              100, GROUND,       100, 10
@@ -140,7 +140,7 @@ Moves:
 	move WATERFALL,    FLINCH_SIDE_EFFECT1,         80, WATER,        100, 15 ; Now Flinches.
 	move CLAMP,        TRAPPING_EFFECT,             35, WATER,         75, 10
 	move SWIFT,        SWIFT_EFFECT,                60, NORMAL,       100, 20
-	move SKULL_BASH,   CHARGE_EFFECT,              100, NORMAL,       100, 15
+	move SKULL_BASH,   CHARGE_EFFECT,              150, NORMAL,       100, 15
 	move SPIKE_CANNON, TWO_TO_FIVE_ATTACKS_EFFECT,  20, STEEL,        100, 15 ; Now Steel-type.
 	move CONSTRICT,    SPEED_DOWN_SIDE_EFFECT,      50, GRASS,        100, 35 ; Now 50 BP and Grass. Tangrowth can have fun with this.
 	move AMNESIA,      SPECIAL_UP2_EFFECT,           0, PSYCHIC_TYPE, 100, 20
@@ -195,17 +195,17 @@ Moves:
 	move KOWTOW_CLEAVE,   SWIFT_EFFECT,             85, DARK,         100, 10
 	move DISARMING_VOICE, SWIFT_EFFECT,             40, FAIRY,        100, 15
 	move NASTY_PLOT,      SPECIAL_UP2_EFFECT,        0, DARK,         100, 10
-	move UPPERCUT,     FLINCH_SIDE_EFFECT2,         55, FIGHTING,      80, 15
-	move POWDER_SNOW,     FREEZE_SIDE_EFFECT,       40, ICE,      	  100, 25
+	move UPPERCUT,     	FLINCH_SIDE_EFFECT2,         55, FIGHTING,      80, 15
+	move POWDER_SNOW,   FREEZE_SIDE_EFFECT,       	40, ICE,      	  100, 25
 	move DUAL_WINGBEAT, ATTACK_TWICE_EFFECT, 		40, FLYING, 	  100, 10
 	move STORMWINDS, 	SPECIAL_DOWN2_EFFECT,		 0, FLYING, 	100, 15
 	move TALON_STRIKE,	FLINCH_SIDE_EFFECT2,		65, BIRD, 		100, 15
 	move LEEK_SLAP,		NO_ADDITIONAL_EFFECT,		65, BIRD, 		100, 15
-	move FRENZY_PLANT,   HYPER_BEAM_EFFECT,        150, GRASS,		90,  5
-	move ROCK_WRECKER,   HYPER_BEAM_EFFECT,        150, ROCK,		90,  5
+	move FRENZY_PLANT,  HYPER_BEAM_EFFECT,        150, GRASS,		90,  5
+	move ROCK_WRECKER,  HYPER_BEAM_EFFECT,        150, ROCK,		90,  5
 	move BLAST_BURN,   	HYPER_BEAM_EFFECT,         150, FIRE, 		90,  5
-	move HYDRO_CANNON,   HYPER_BEAM_EFFECT,        150, WATER,		90,  5
-	move REPRIMAND,		EVASION_DOWN2_EFFECT,		 0, DARK, 	90, 15
+	move HYDRO_CANNON,  HYPER_BEAM_EFFECT,        150, WATER,		90,  5
+	move DRAGONBREATH,	PARALYZE_SIDE_EFFECT2,		60, DRAGON, 	100, 15
 	move NEUROTOXIN,	SPECIAL_DOWN_SIDE_EFFECT,	75, POISON, 	100, 15
 	move SHADOW_BALL,	DEFENSE_DOWN_SIDE_EFFECT,	80, GHOST, 		100, 15 ; fine take it u menaces to society
 	move SLUDGE_BOMB,	POISON_SIDE_EFFECT1,		80, POISON, 	100, 15

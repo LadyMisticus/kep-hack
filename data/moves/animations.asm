@@ -194,7 +194,7 @@ AttackAnimationPointers:
 	dw RockWreckerAnim
 	dw BlastBurnAnim
 	dw HydroCannonAnim
-	dw ReprimandAnim
+	dw DragonbreathAnim
 	dw NeurotoxinAnim
 	dw ShadowBallAnim
 	dw SludgeBombAnim
@@ -994,12 +994,12 @@ GigaflareAnim:
 	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
 	db -1 ; end
 	
-;DragonbreathAnim:
-;	battle_anim DRAGON_RAGE, SUBANIM_1_FLAME_BEAM, 1, 6
-;	battle_anim DRAGON_RAGE, SUBANIM_1_FLAME_BEAM, 1, 6
-;	battle_anim THUNDERSHOCK, SUBANIM_1_LIGHTNING_BALL, 1, 2
-;	battle_anim NO_MOVE, SE_DELAY_ANIMATION_10
-;	db -1 ; end
+DragonbreathAnim:
+	battle_anim DRAGON_RAGE, SUBANIM_1_FLAME_BEAM, 1, 6
+	battle_anim DRAGON_RAGE, SUBANIM_1_FLAME_BEAM, 1, 6
+	battle_anim THUNDERSHOCK, SUBANIM_1_LIGHTNING_BALL, 1, 2
+	battle_anim NO_MOVE, SE_DELAY_ANIMATION_10
+	db -1 ; end
 
 FireSpinAnim:
 	battle_anim FIRE_SPIN, SUBANIM_1_FLAME_COLUMN_1, 1, 6
@@ -1490,11 +1490,11 @@ PsywaveAnim:
 	battle_anim CONFUSION, SE_WAVY_SCREEN
 	db -1 ; end
 
-ReprimandAnim: ; this is gonna sound awful
-	battle_anim SCREECH, SUBANIM_0_SOUND_WAVE, 0, 3
-	battle_anim CONSTRICT, SUBANIM_0_BIND, 0, 6
-	battle_anim NO_MOVE, SE_SHAKE_ENEMY_HUD
-	db -1 ; end
+;ReprimandAnim:
+;	battle_anim SCREECH, SUBANIM_0_SOUND_WAVE, 0, 3
+;	battle_anim CONSTRICT, SUBANIM_0_BIND, 0, 6
+;	battle_anim NO_MOVE, SE_SHAKE_ENEMY_HUD
+;	db -1 ; end
 
 SplashAnim:
 	battle_anim SPLASH, SE_BOUNCE_UP_AND_DOWN

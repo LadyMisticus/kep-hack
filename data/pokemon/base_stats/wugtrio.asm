@@ -1,6 +1,6 @@
 	db DEX_WUGTRIO ; pokedex id
 
-	db  35,  80,  50, 120,  70
+	db  35, 100,  50, 120,  70
 	;   hp  atk  def  spd  spc
 
 	db WATER, WATER ; type

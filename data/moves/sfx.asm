@@ -195,7 +195,7 @@ MoveSoundTable:
 	db SFX_BATTLE_36,          $00, $80 ; ROCK_WRECKER
 	db SFX_BATTLE_36,          $00, $80 ; BLAST_BURN
 	db SFX_BATTLE_36,          $00, $80 ; HYDRO_CANNON
-	db SFX_BATTLE_14,          $00, $20 ; REPRIMAND
+	db SFX_BATTLE_29,          $f0, $60 ; DRAGONBREATH
 	db SFX_BATTLE_14,          $00, $20 ; NEUROTOXIN
 	db SFX_NOT_VERY_EFFECTIVE, $10, $ff ; SHADOW_BALL
 	db SFX_BATTLE_2A,          $20, $20 ; SLUDGE_BOMB

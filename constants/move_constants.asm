@@ -203,7 +203,7 @@
 	const ROCK_WRECKER
 	const BLAST_BURN
 	const HYDRO_CANNON
-	const REPRIMAND ; Evasion-lowering move
+	const DRAGONBREATH
 	const NEUROTOXIN ; Strong Poison move
 	const SHADOW_BALL
 	const SLUDGE_BOMB

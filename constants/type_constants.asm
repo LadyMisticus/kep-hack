@@ -4,7 +4,6 @@
 DEF PHYSICAL EQU const_value
 	const NORMAL       ; $00
 	const FIGHTING     ; $01
-	const FLYING       ; $02
 	const POISON       ; $03
 	const GROUND       ; $04
 	const ROCK         ; $05
@@ -18,6 +17,7 @@ DEF UNUSED_TYPES EQU const_value
 DEF UNUSED_TYPES_END EQU const_value
 
 DEF SPECIAL EQU const_value
+	const FLYING       ; $02
 	const FIRE         ; $14
 	const WATER        ; $15
 	const GRASS        ; $16
