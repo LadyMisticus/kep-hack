@@ -6,6 +6,8 @@ KEPiversary edition, above all else, was designed with the express intent for pl
 
 Not much is changed outside of the Pokemon and moves themselves, as KEP's storyline is pretty solid. Type specialists saw minimal changes from type changes, but that's about it. 
 
+Needless to say, this is a non-canon branch. 
+
 # For ANY specific "does this Pokemon get this move" questions, look [here](https://docs.google.com/spreadsheets/d/1OTzBHu5gOPB4aT82IrBg5Nx6N2KCnpJyVFt0VIqk1s0/edit?usp=sharing) and Ctrl+F. 
 
 This is a modified KEP spreadsheet. It has everything you need. Please review it rather than asking easily answerable questions. I am begging you. I am one woman. 
@@ -123,6 +125,23 @@ These are entirely new moves added to the ROM Hack. Some are backported from lat
 * GIGAFLARE | Dragon | 100 BP | 84.5 Acc | 30.1% chance to burn.
 * OUTRAGE | Dragon | 120 BP | 99.6 Acc | Thrash-like.
 * DRAGONBREATH | Dragon | 60 BP | 99.6 Acc | 10.1% chance to paralyze.
+
+## New TMs
+This branch replaces some TMs with the new moves and distributes them amongst the cast; these can be obtained in the Cinnabar Lab, where Metronome is usually obtained. 
+* TM04 Shadow Ball (replaces Whirlwind)
+* TM09 Headbutt (replaces Take Down)
+* TM12 Pollinate (replaces Water Gun)
+* TM20 Megaflare (replaces Rage)
+* TM34 Rock Throw (replaces Bide, now given by Brock)
+* TM36 Smart Strike (replaces Selfdestruct)
+* TM40 Draining Kiss (replaces Skull Bash)
+* TM41 Tombstoner (replaces Softboiled)
+* TM42 Sludge Bomb (replaces Dream Eater)
+* TM43 Brutal Swing (replaces Sky Attack)
+* TM46 Flamethrower (replaces Psywave)
+Sabrina now gives a Psychic TM, while Mr. Psychic now gives you Tombstoner (you DO want that, right?).
+
+Any Pokemon that loses a move as a result of this change gains it as a Tradeback move, considering the base branch such.
 
 ## Explanation
 As you've very likely observed, Dragon, Bug, and Ghost now have actual moves. Their type matchups aren't changed, so let's have minor explanations.

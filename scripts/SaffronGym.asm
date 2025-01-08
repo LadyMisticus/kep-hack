@@ -48,7 +48,7 @@ SaffronGymReceiveTM46:
 	call DisplayTextID
 	SetEvent EVENT_BEAT_SABRINA
 	ResetEvent EVENT_SS_ANNE_LEFT
-	lb bc, TM_PSYWAVE, 1
+	lb bc, TM_PSYCHIC_M, 1
 	call GiveItem
 	jr nc, .BagFull
 	ld a, $b

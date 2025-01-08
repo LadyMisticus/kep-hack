@@ -38,12 +38,12 @@ _TM34ExplanationText::
 	cont "carefully!"
 
 	para "TM34 contains"
-	line "BIDE!"
+	line "ROCK THROW!"
 
-	para "Your #MON will"
-	line "absorb damage in"
-	cont "battle then pay"
-	cont "it back double!"
+	para "Teach it to a"
+	line "rock #MON! You"
+	cont "can find some"
+	cont "in MT. MOON!"
 	done
 
 _TM34NoRoomText::

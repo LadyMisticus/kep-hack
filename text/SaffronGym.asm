@@ -48,16 +48,16 @@ _KogaMarshBadgeInfoText::
 
 _ReceivedTM46Text::
 	text "<PLAYER> received"
-	line "TM46!@"
+	line "TM29!@"
 	text_end
 
 _TM46ExplanationText::
 	text_start
 
-	para "TM46 is PSYWAVE!"
+	para "TM30 is PSYCHIC!"
 	line "It uses psychic"
-	cont "power to inflict"
-	cont "varying damage!"		; text altered to make Psywave's effect more clear
+	cont "power to deal"
+	cont "massive damage!"
 	
 	para "Also..."
 	

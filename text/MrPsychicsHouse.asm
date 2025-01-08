@@ -13,11 +13,10 @@ _ReceivedTM29Text::
 	text_end
 
 _TM29ExplanationText::
-	text "TM29 is PSYCHIC!"
+	text "TM41 is TOMBSTONER!"
 
-	para "It can lower the"
-	line "target's SPECIAL"
-	cont "abilities."
+	para "You've dreamed of"
+	line "this TM for years!"
 	done
 
 _TM29NoRoomText::
