@@ -221,3 +221,13 @@ Bird/Flying-related changes are excluded from the list. These changes aim at red
 * Magmortar now has 125 Spc.
 * Parasect has received +10 HP and Spc.
 * Venomoth has +20 Atk (85).
+
+# Credits
+* Plague von Karma - Developer
+* LadyMisticus - Moveset Tzar
+* MementoMartha - Some animation code
+* zuperZACH - General assistance
+* Zeta_Null - General assistance
+* Shawesome - General assistance
+* Molk - General assistance
+* MynxTheOrigin - Legacy inspiration from an old in-house ROM Hack we once did.
