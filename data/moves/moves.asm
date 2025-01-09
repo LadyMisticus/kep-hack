@@ -12,7 +12,7 @@ Moves:
 ; Characteristics of each move.
 	table_width MOVE_LENGTH, Moves
 	move POUND,        NO_ADDITIONAL_EFFECT,        40, NORMAL,       100, 35
-	move KARATE_CHOP,  NO_ADDITIONAL_EFFECT,        50, FIGHTING,       100, 25 ; Now Fighting-type. This breaks the game.
+	move KARATE_CHOP,  NO_ADDITIONAL_EFFECT,        50, FIGHTING,     100, 25 ; Now Fighting-type. This breaks the game.
 	move DOUBLESLAP,   TWO_TO_FIVE_ATTACKS_EFFECT,  15, FAIRY,        100, 10 ; Now Fairy-type, 100 acc. s/o zuperZACH
 	move COMET_PUNCH,  TWO_TO_FIVE_ATTACKS_EFFECT,  25, FIGHTING,     100, 15 ; Now Fighting-type, 100 acc, 25 Base Power.
 	move MEGA_PUNCH,   NO_ADDITIONAL_EFFECT,        80, NORMAL,        85, 20
@@ -51,7 +51,7 @@ Moves:
 	move DOUBLE_EDGE,  RECOIL_EFFECT,              120, NORMAL,       100, 15 ; Now 120 Base Power
 	move TAIL_WHIP,    DEFENSE_DOWN1_EFFECT,         0, NORMAL,       100, 30
 	move POISON_STING, POISON_SIDE_EFFECT1,         15, POISON,       100, 35
-	move TWINEEDLE,    TWINEEDLE_EFFECT,            25, BUG,          100, 20
+	move TWINEEDLE,    TWINEEDLE_EFFECT,            50, BUG,          100, 20 ; Now 50 Base Power
 	move PIN_MISSILE,  TWO_TO_FIVE_ATTACKS_EFFECT,  14, BUG,           85, 20
 	move LEER,         DEFENSE_DOWN1_EFFECT,         0, NORMAL,       100, 30
 	move BITE,         FLINCH_SIDE_EFFECT1,         60, DARK,         100, 25 ; Now Dark-type
@@ -153,7 +153,7 @@ Moves:
 	move BARRAGE,      TWO_TO_FIVE_ATTACKS_EFFECT,  25, GRASS,        100, 20 ; Now 100 acc with 25 bp. Exeggutor can have fun.
 	move LEECH_LIFE,   DRAIN_HP_EFFECT,             50, BUG,          100, 15 ; Now 50 base power, s/o zuperZACH for the idea.
 	move LOVELY_KISS,  SLEEP_EFFECT,                 0, NORMAL,        75, 10
-	move SKY_ATTACK,   CHARGE_EFFECT,              140, BIRD,        90,  5
+	move SKY_ATTACK,   CHARGE_EFFECT,              140, BIRD,          90,  5
 	move TRANSFORM,    TRANSFORM_EFFECT,             0, NORMAL,       100, 10
 	move BUBBLE,       SPEED_DOWN_SIDE_EFFECT,      20, WATER,        100, 30
 	move DIZZY_PUNCH,  CONFUSION_SIDE_EFFECT,       80, NORMAL,       100, 10 ; Now 80 BP with its Confusion chance. Kanga!!!!
@@ -195,9 +195,9 @@ Moves:
 	move KOWTOW_CLEAVE,   SWIFT_EFFECT,             85, DARK,         100, 10
 	move DISARMING_VOICE, SWIFT_EFFECT,             40, FAIRY,        100, 15
 	move NASTY_PLOT,      SPECIAL_UP2_EFFECT,        0, DARK,         100, 10
-	move UPPERCUT,     	FLINCH_SIDE_EFFECT2,         55, FIGHTING,      80, 15
+	move UPPERCUT,     	FLINCH_SIDE_EFFECT2,         55, FIGHTING,     80, 15
 	move POWDER_SNOW,   FREEZE_SIDE_EFFECT,       	40, ICE,      	  100, 25
-	move DUAL_WINGBEAT, ATTACK_TWICE_EFFECT, 		40, FLYING, 	  100, 10
+	move DUAL_WINGBEAT, ATTACK_TWICE_EFFECT, 		40, FLYING, 	100, 10
 	move STORMWINDS, 	SPECIAL_DOWN2_EFFECT,		 0, FLYING, 	100, 15
 	move TALON_STRIKE,	FLINCH_SIDE_EFFECT2,		65, BIRD, 		100, 15
 	move LEEK_SLAP,		NO_ADDITIONAL_EFFECT,		65, BIRD, 		100, 15
@@ -209,6 +209,7 @@ Moves:
 	move NEUROTOXIN,	SPECIAL_DOWN_SIDE_EFFECT,	75, POISON, 	100, 15
 	move SHADOW_BALL,	DEFENSE_DOWN_SIDE_EFFECT,	80, GHOST, 		100, 15 ; fine take it u menaces to society
 	move SLUDGE_BOMB,	POISON_SIDE_EFFECT1,		80, POISON, 	100, 15
+	; move RAPID_JAB,     TWO_TO_FIVE_ATTACKS_EFFECT,  25, FIGHTING,     100, 15 ; Currently an unimplemented clone of Comet Punch
 	move POLLINATE,		EVASION_DOWN2_EFFECT,		 0, GRASS, 		100, 30
 	move MANDIBITE,		FLINCH_SIDE_EFFECT2,		80,	BUG,		100, 10
 	move SIGNAL_BEAM,	CONFUSION_SIDE_EFFECT,		75,	BUG,		100, 15

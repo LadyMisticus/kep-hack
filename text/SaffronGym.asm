@@ -54,7 +54,7 @@ _ReceivedTM46Text::
 _TM46ExplanationText::
 	text_start
 
-	para "TM30 is PSYCHIC!"
+	para "TM29 is PSYCHIC!"
 	line "It uses psychic"
 	cont "power to deal"
 	cont "massive damage!"
