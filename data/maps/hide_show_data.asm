@@ -19,10 +19,10 @@ MapHSPointers:
 	dw Route1HS
 	dw Route2HS
 	dw NoHS
-	dw Route4HS
 	dw NoHS
 	dw NoHS
 	dw NoHS
+	dw Route7HS
 	dw NoHS
 	dw Route9HS
 	dw NoHS
@@ -305,14 +305,15 @@ Route1HS:
 Route2HS:
 	db ROUTE_2, $01, SHOW                     ; HS_ROUTE_2_ITEM_1
 	db ROUTE_2, $02, SHOW                     ; HS_ROUTE_2_ITEM_2
-Route4HS:
-	db ROUTE_4, $03, SHOW                     ; HS_ROUTE_4_ITEM
+Route7HS:
+	db ROUTE_7, $01, SHOW                  	  ; HS_ROUTE_7_ITEM_1
 Route9HS:
 	db ROUTE_9, $0A, SHOW                     ; HS_ROUTE_9_ITEM
 Route12HS:
 	db ROUTE_12, $01, SHOW                    ; HS_ROUTE_12_SNORLAX
 	db ROUTE_12, $09, SHOW                    ; HS_ROUTE_12_ITEM_1
 	db ROUTE_12, $0A, SHOW                    ; HS_ROUTE_12_ITEM_2
+	db ROUTE_12, $0B, SHOW                    ; HS_ROUTE_12_ITEM_3
 Route15HS:
 	db ROUTE_15, $0B, SHOW                    ; HS_ROUTE_15_ITEM
 Route16HS:
@@ -367,6 +368,7 @@ PokemonTower7FHS:
 	db POKEMON_TOWER_7F, $01, HIDE            ; HS_POKEMON_TOWER_7F_JESSIE
 	db POKEMON_TOWER_7F, $02, HIDE            ; HS_POKEMON_TOWER_7F_JAMES
 	db POKEMON_TOWER_7F, $03, SHOW            ; HS_POKEMON_TOWER_7F_MR_FUJI
+	db POKEMON_TOWER_7F, $04, SHOW           ; HS_SAFARI_ZONE_NORTH_ITEM_2
 MrFujisHouseHS:
 	db MR_FUJIS_HOUSE, $05, HIDE              ; HS_MR_FUJIS_HOUSE_MR_FUJI#
 CeladonMansion3FHS:
@@ -422,8 +424,7 @@ MtMoon1FHS:
 	db MT_MOON_1F, $09, SHOW                  ; HS_MT_MOON_1F_ITEM_2
 	db MT_MOON_1F, $0A, SHOW                  ; HS_MT_MOON_1F_ITEM_3
 	db MT_MOON_1F, $0B, SHOW                  ; HS_MT_MOON_1F_ITEM_4
-	db MT_MOON_1F, $0C, SHOW                  ; HS_MT_MOON_1F_ITEM_5
-	db MT_MOON_1F, $0D, SHOW                  ; HS_MT_MOON_1F_ITEM_6
+	db MT_MOON_1F, $0D, SHOW                  ; HS_MT_MOON_1F_ITEM_6(5)
 MtMoonB2FHS:
 	db MT_MOON_B2F, $02, HIDE                 ; HS_MT_MOON_B2F_JESSIE
 	db MT_MOON_B2F, $06, HIDE                 ; HS_MT_MOON_B2F_JAMES
@@ -522,7 +523,6 @@ SafariZoneEastHS:
 	db SAFARI_ZONE_EAST, $04, SHOW            ; HS_SAFARI_ZONE_EAST_ITEM_4
 SafariZoneNorthHS:
 	db SAFARI_ZONE_NORTH, $01, SHOW           ; HS_SAFARI_ZONE_NORTH_ITEM_1
-	db SAFARI_ZONE_NORTH, $02, SHOW           ; HS_SAFARI_ZONE_NORTH_ITEM_2
 SafariZoneWestHS:
 	db SAFARI_ZONE_WEST, $01, SHOW            ; HS_SAFARI_ZONE_WEST_ITEM_1
 	db SAFARI_ZONE_WEST, $02, SHOW            ; HS_SAFARI_ZONE_WEST_ITEM_2

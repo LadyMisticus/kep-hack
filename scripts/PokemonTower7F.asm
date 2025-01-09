@@ -259,6 +259,7 @@ PokemonTower7F_TextPointers:
 	dw PokemonTower7Text2
 	dw PokemonTower7Text3
 	dw PokemonTower7Text4
+	dw PickUpItemText
 	dw PokemonTower7Text5
 	dw PokemonTower7Text6
 

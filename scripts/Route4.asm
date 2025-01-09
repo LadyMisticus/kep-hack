@@ -15,7 +15,6 @@ Route4_ScriptPointers:
 Route4_TextPointers:
 	dw Route4Text1
 	dw Route4Text2
-	dw PickUpItemText
 	dw MegaPunchGuy
 	dw MegaKickGuy
 	dw PokeCenterSignText

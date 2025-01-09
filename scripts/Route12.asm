@@ -73,6 +73,7 @@ Route12_TextPointers:
 	dw Route12Text8
 	dw PickUpItemText
 	dw PickUpItemText
+	dw PickUpItemText
 	dw Route12Text11
 	dw Route12Text12
 	dw Route12Text13

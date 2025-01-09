@@ -7,8 +7,8 @@ Route12_Object:
 	warp_event 10, 21, ROUTE_12_GATE_1F, 3
 
 	def_bg_events
-	bg_event 13, 13, 11 ; Route12Text11
-	bg_event 11, 63, 12 ; Route12Text12
+	bg_event 13, 13, 12 ; Route12Text11
+	bg_event 11, 63, 13 ; Route12Text12
 
 	def_object_events
 	object_event 10, 62, SPRITE_SNORLAX, STAY, DOWN, 1 ; person
@@ -21,5 +21,6 @@ Route12_Object:
 	object_event  6, 87, SPRITE_FISHER, STAY, DOWN, 8, OPP_FISHER, 11
 	object_event 14, 35, SPRITE_POKE_BALL, STAY, NONE, 9, TM_PAY_DAY
 	object_event  5, 89, SPRITE_POKE_BALL, STAY, NONE, 10, IRON
+	object_event  5, 17, SPRITE_POKE_BALL, STAY, NONE, 11, TM_WHIRLWIND
 
 	def_warps_to ROUTE_12

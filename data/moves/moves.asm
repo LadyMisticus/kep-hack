@@ -14,7 +14,7 @@ Moves:
 	move POUND,        NO_ADDITIONAL_EFFECT,        40, NORMAL,       100, 35
 	move KARATE_CHOP,  NO_ADDITIONAL_EFFECT,        50, FIGHTING,       100, 25 ; Now Fighting-type. This breaks the game.
 	move DOUBLESLAP,   TWO_TO_FIVE_ATTACKS_EFFECT,  15, FAIRY,        100, 10 ; Now Fairy-type, 100 acc. s/o zuperZACH
-	move COMET_PUNCH,  TWO_TO_FIVE_ATTACKS_EFFECT,  18, FIGHTING,        100, 15 ; Now Fighting-type, 100 acc
+	move COMET_PUNCH,  TWO_TO_FIVE_ATTACKS_EFFECT,  25, FIGHTING,     100, 15 ; Now Fighting-type, 100 acc, 25 Base Power.
 	move MEGA_PUNCH,   NO_ADDITIONAL_EFFECT,        80, NORMAL,        85, 20
 	move PAY_DAY,      PAY_DAY_EFFECT,              40, NORMAL,       100, 20
 	move FIRE_PUNCH,   BURN_SIDE_EFFECT1,           75, FIRE,         100, 15
@@ -76,7 +76,7 @@ Moves:
 	move HYPER_BEAM,   HYPER_BEAM_EFFECT,          150, NORMAL,        90,  5
 	move PECK,         NO_ADDITIONAL_EFFECT,        35, BIRD,         100, 35 ; Now Bird-type
 	move DRILL_PECK,   NO_ADDITIONAL_EFFECT,        80, BIRD,         100, 20 ; Now Bird-type
-	move SUBMISSION,   RECOIL_EFFECT,               80, FIGHTING,      80, 25
+	move SUBMISSION,   RECOIL_EFFECT,               90, FIGHTING,     100, 25 ; Now 90 Base Power, 100 Acc.
 	move LOW_KICK,     FLINCH_SIDE_EFFECT2,         50, FIGHTING,      90, 20
 	move COUNTER,      NO_ADDITIONAL_EFFECT,         1, FIGHTING,     100, 20
 	move SEISMIC_TOSS, SPECIAL_DAMAGE_EFFECT,        1, FIGHTING,     100, 20

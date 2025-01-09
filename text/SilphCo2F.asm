@@ -18,12 +18,11 @@ _ReceivedTM36Text::
 
 _TM36ExplanationText::
 	text "TM36 is"
-	line "SELFDESTRUCT!"
+	line "SMART STRIKE!"
 
-	para "It's powerful, but"
-	line "the #MON that"
-	cont "uses it faints!"
-	cont "Be careful."
+	para "It never misses!"
+	line "The CHIEF inven-"
+	cont "ted it recently!"
 	done
 
 _TM36NoRoomText::

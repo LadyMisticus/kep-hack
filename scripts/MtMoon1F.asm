@@ -25,7 +25,6 @@ MtMoon1F_TextPointers:
 	dw PickUpItemText
 	dw PickUpItemText
 	dw PickUpItemText
-	dw PickUpItemText
 	dw MtMoon1Text14
 
 MtMoon1TrainerHeaders:

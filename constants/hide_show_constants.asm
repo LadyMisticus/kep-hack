@@ -40,11 +40,12 @@ DEF SHOW EQU $15
 	const HS_ROUTE_1_OAK                   ; 1A
 	const HS_ROUTE_2_ITEM_1                ; 1B X
 	const HS_ROUTE_2_ITEM_2                ; 1C X
-	const HS_ROUTE_4_ITEM                  ; 1D X
+	const HS_ROUTE_7_ITEM_5                ; 6F X
 	const HS_ROUTE_9_ITEM                  ; 1E X
 	const HS_ROUTE_12_SNORLAX              ; 1F
 	const HS_ROUTE_12_ITEM_1               ; 20 X
 	const HS_ROUTE_12_ITEM_2               ; 21 X
+	const HS_ROUTE_12_ITEM_3               ; 1D X
 	const HS_ROUTE_15_ITEM                 ; 22 X
 	const HS_ROUTE_16_SNORLAX              ; 23
 	const HS_ROUTE_22_RIVAL_1              ; 24
@@ -82,6 +83,7 @@ DEF SHOW EQU $15
 	const HS_POKEMON_TOWER_7F_JESSIE       ; 43
 	const HS_POKEMON_TOWER_7F_JAMES        ; 44
 	const HS_POKEMON_TOWER_7F_MR_FUJI      ; 45
+	const HS_POKEMON_TOWER_SHADOW_BALL     ; BE X
 	const HS_MR_FUJIS_HOUSE_MR_FUJI        ; 46
 	const HS_MORIMOTO
 	const HS_CELADON_MANSION_EEVEE_GIFT    ; 47
@@ -124,8 +126,7 @@ DEF SHOW EQU $15
 	const HS_MT_MOON_1F_ITEM_2             ; 6C X
 	const HS_MT_MOON_1F_ITEM_3             ; 6D X
 	const HS_MT_MOON_1F_ITEM_4             ; 6E X
-	const HS_MT_MOON_1F_ITEM_5             ; 6F X
-	const HS_MT_MOON_1F_ITEM_6             ; 70 X
+	const HS_MT_MOON_1F_ITEM_5             ; 70 X
 	const HS_MT_MOON_B2F_JESSIE            ; 71
 	const HS_MT_MOON_B2F_JAMES             ; 72
 	const HS_MT_MOON_B2F_FOSSIL_1          ; 73
@@ -202,7 +203,6 @@ DEF SHOW EQU $15
 	const HS_SAFARI_ZONE_EAST_ITEM_3       ; BB X
 	const HS_SAFARI_ZONE_EAST_ITEM_4       ; BC X
 	const HS_SAFARI_ZONE_NORTH_ITEM_1      ; BD X
-	const HS_SAFARI_ZONE_NORTH_ITEM_2      ; BE X
 	const HS_SAFARI_ZONE_WEST_ITEM_1       ; BF X
 	const HS_SAFARI_ZONE_WEST_ITEM_2       ; C0 X
 	const HS_SAFARI_ZONE_WEST_ITEM_3       ; C1 X

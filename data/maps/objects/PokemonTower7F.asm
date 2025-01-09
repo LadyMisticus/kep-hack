@@ -10,5 +10,6 @@ PokemonTower7F_Object:
 	object_event 10,  8, SPRITE_JESSIE, STAY, DOWN, 1
 	object_event 11,  8, SPRITE_JAMES, STAY, DOWN, 2
 	object_event 10,  3, SPRITE_MR_FUJI, STAY, DOWN, 3
+	object_event 11,  3, SPRITE_POKE_BALL, STAY, NONE, 4, TM_SHADOW_BALL
 
 	def_warps_to POKEMON_TOWER_7F

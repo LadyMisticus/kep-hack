@@ -55,5 +55,3 @@ B2FAmberPod:
 B2FMewtwoPod:
 	text_far _MewtwoPod
 	text_end
-
-	text_end ; unused

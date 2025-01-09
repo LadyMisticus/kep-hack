@@ -69,20 +69,19 @@ _ViridianCityText_19191::
 	done
 
 _ViridianCityText_191ca::
-	text "Yawn!"
-	line "I must have dozed"
-	cont "off in the sun."
-
-	para "I had this dream"
-	line "about a DROWZEE"
-	cont "eating my dream."
-	cont "What's this?"
-	cont "Where did this TM"
-	cont "come from?"
-
-	para "This is spooky!"
-	line "Here, you can"
-	cont "have this TM."
+	text "...urp!"
+	
+	para "I must have ate"
+	line "something funny!"
+	
+	para "Ugh..."
+	
+	para "Where did this"
+	line "come from?"
+	
+	para "Here, take it."
+	line "It's creeping"
+	cont "me out."
 	prompt
 
 _ReceivedTM42Text::
@@ -92,8 +91,19 @@ _ReceivedTM42Text::
 
 _TM42Explanation::
 	text "TM42 contains"
-	line "DREAM EATER..."
-	cont "...Snore..."
+	line "SLUDGE BOMB..."
+	cont "...agh..."
+	
+	para "My stomach..."
+	
+	para "It probably"
+	line "poisons other"
+	cont "#MON..."
+	
+	para "Why did all"
+	line "the hospitals"
+	cont "become #MON"
+	cont "CENTERS?"
 	done
 
 _TM42NoRoomText::

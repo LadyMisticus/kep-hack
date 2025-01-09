@@ -131,7 +131,7 @@ This branch replaces some TMs with the new moves and distributes them amongst th
 * TM04 Shadow Ball (replaces Whirlwind)
 * TM09 Headbutt (replaces Take Down)
 * TM12 Pollinate (replaces Water Gun)
-* TM20 Megaflare (replaces Rage)
+* TM20 Dragonbreath (replaces Rage)
 * TM34 Rock Throw (replaces Bide, now given by Brock)
 * TM36 Smart Strike (replaces Selfdestruct)
 * TM40 Draining Kiss (replaces Skull Bash)
@@ -141,7 +141,7 @@ This branch replaces some TMs with the new moves and distributes them amongst th
 * TM46 Flamethrower (replaces Psywave)
 Sabrina now gives a Psychic TM, while Mr. Psychic now gives you Tombstoner (you DO want that, right?).
 
-Any Pokemon that loses a move as a result of this change gains it as a Tradeback move, considering the base branch such.
+Any Pokemon that loses a move as a result of this change gains it as a Tradeback move, considering the base branch such. In the case of Self-Destruct, Mewtwo gets it as a relearn move, and Snorlax at Level 64.
 
 ## Explanation
 As you've very likely observed, Dragon, Bug, and Ghost now have actual moves. Their type matchups aren't changed, so let's have minor explanations.
@@ -160,7 +160,7 @@ Oh, and the type-based Hyper Beams are there. They have similar animations to Hy
 Bird/Flying-related changes are excluded from the list. These are largely "common-sense" changes that many people demand, bringing some moves to modern standards (Disable, Glare, Thrash-likes) and making others more specialised towards the Pokemon that get them (Egg Bomb, Barrage, etc). 
 * Karate Chop is now Fighting-type. This breaks the game.
 * Double-Slap is now Fairy-type, targeted at Mr. Mime and the Clefairy line.
-* Comet Punch is now Fighting-type.
+* Comet Punch is now Fighting-type with 100 Acc and 25 Base Power.
 * ViceGrip is now Steel-type, targeted at Kingler and Tricules in particular.
 * Bite is now Dark-type, giving many Pokemon Dark coverage.
 * Spike Cannon is now Steel-type, targeted at Cloyster.
@@ -191,6 +191,7 @@ Bird/Flying-related changes are excluded from the list. These are largely "commo
 * Rock Throw now has 89.5 Acc
 * Take Down now has 99.6 Acc
 * Skull Bash now has 150 Base Power. I considered making it have a Def buff but I couldn't be bothered to deal with this game's ridiculous stat buff system.
+* Submission now has 90 Base Power and 99.6% Accuracy. Much more reliable.
 
 # Pokemon changes
 Bird/Flying-related changes are excluded from the list. These changes aim at reducing the number of "clone" Pokemon, improving type diversity, contextualising some Pokemon with their baby forms (particularly Seaking), and allowing for more interesting design choices down the line. **This does not include learnset changes**, which are bountiful and can be found [here](https://docs.google.com/spreadsheets/d/1OTzBHu5gOPB4aT82IrBg5Nx6N2KCnpJyVFt0VIqk1s0/edit?usp=sharing).
