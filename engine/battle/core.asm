@@ -4876,8 +4876,8 @@ HandleCounterMove:
 	ld a, [de]
 	and a ; normal type
 	jr z, .counterableType
-	cp FIGHTING
-	jr z, .counterableType
+	cp FLYING ; Check if the move is physical. Flying is the first special move.
+	jr c, .counterableType ; If less than Flying, it WILL be physical.
 ; if the move wasn't Normal or Fighting type, miss
 	xor a
 	ret

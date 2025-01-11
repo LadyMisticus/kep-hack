@@ -158,6 +158,7 @@ Oh, and the type-based Hyper Beams are there. They have similar animations to Hy
 
 # Vanilla Move Changes
 Bird/Flying-related changes are excluded from the list. These are largely "common-sense" changes that many people demand, bringing some moves to modern standards (Disable, Glare, Thrash-likes) and making others more specialised towards the Pokemon that get them (Egg Bomb, Barrage, etc). 
+* Counter now counters all physical moves. This, shockingly, only took two line changes. This kills the Snorlax.
 * Karate Chop is now Fighting-type. This breaks the game.
 * Double-Slap is now Fairy-type, targeted at Mr. Mime and the Clefairy line.
 * Comet Punch is now Fighting-type with 100 Acc and 25 Base Power.
