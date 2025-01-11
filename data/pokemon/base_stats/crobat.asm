@@ -15,9 +15,9 @@
 
 	; tm/hm learnset
 	tmhm RAZOR_WIND,   WHIRLWIND,    TOXIC,        HEADBUTT,    DOUBLE_EDGE,  \
-	     HYPER_BEAM,   RAGE,         MEGA_DRAIN,   MIMIC,        DOUBLE_TEAM,  \
-	     BIDE,         SWIFT,        SKY_ATTACK,   REST,         SUBSTITUTE,   \
-	     FLY, PSYCHIC_M, PSYWAVE, DREAM_EATER
+	     HYPER_BEAM,         MEGA_DRAIN,   MIMIC,        DOUBLE_TEAM,  \
+	     SWIFT,        SKY_ATTACK,   REST,         SUBSTITUTE,   \
+	     FLY, PSYCHIC_M, SHADOW_BALL
 	; end
 
 	db BANK(CrobatPicFront)
