@@ -16,9 +16,9 @@
 	; tm/hm learnset
 	tmhm MEGA_PUNCH,   SWORDS_DANCE, MEGA_KICK,    TOXIC,        BODY_SLAM,    \
 	     HEADBUTT,    DOUBLE_EDGE,  SUBMISSION,   COUNTER,      SEISMIC_TOSS, \
-	     RAGE,         DRAGON_RAGE,  DIG,          MIMIC,        DOUBLE_TEAM,  \
-	     REFLECT,      BIDE,         FIRE_BLAST,   SWIFT,        SKULL_BASH,   \
-	     REST,         SUBSTITUTE,   CUT,          STRENGTH
+	     DRAGONBREATH,         DRAGON_RAGE,  DIG,          MIMIC,        DOUBLE_TEAM,  \
+	     REFLECT,      FIRE_BLAST,   SWIFT,  \
+	     REST,         SUBSTITUTE,   CUT,          STRENGTH, FLAMETHROWER
 	; end
 
 	db BANK(CharmeleonPicFront)

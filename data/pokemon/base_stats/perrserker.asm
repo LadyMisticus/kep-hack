@@ -15,9 +15,9 @@
 
 	; tm/hm learnset
 	tmhm SWORDS_DANCE, TOXIC,        BODY_SLAM,    HEADBUTT,    DOUBLE_EDGE,  \
-	     BUBBLEBEAM,   WATER_GUN,    HYPER_BEAM,   PAY_DAY,      RAGE,         \
-	     THUNDERBOLT,  THUNDER,      DIG,          MIMIC,        BIDE,         \
-	     SWIFT,        SKULL_BASH,   REST,         SUBSTITUTE,   CUT, SMART_STRIKE
+	     BUBBLEBEAM,   HYPER_BEAM,   PAY_DAY,      \
+	     THUNDERBOLT,  THUNDER,      DIG,          MIMIC,        \
+	     SWIFT,        REST,         SUBSTITUTE,   CUT, SMART_STRIKE, SHADOW_BALL
 	; end
 
 	db BANK(PerrserkerPicFront)

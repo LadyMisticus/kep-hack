@@ -15,9 +15,9 @@
 
 	; tm/hm learnset
 	tmhm TOXIC,        BODY_SLAM,    HEADBUTT,    DOUBLE_EDGE,  BUBBLEBEAM,   \
-	     WATER_GUN,    ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   RAGE,         \
-	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         SWIFT,        \
-	     SKULL_BASH,   REST,         SUBSTITUTE,   SURF
+	     ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   \
+	     MIMIC,        DOUBLE_TEAM,  REFLECT,       SWIFT,        \
+	     REST,         SUBSTITUTE,   SURF, SHADOW_BALL
 	; end
 
 	db BANK(VaporeonPicFront)
