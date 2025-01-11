@@ -201,6 +201,7 @@ Bird/Flying-related changes are excluded from the list. These changes aim at red
 * All Pokemon are brought to Gen 7 stat standards, save for Farfetch'd. Thus, Golem has 120 Atk, Dodrio has 110 Speed, and so on. These will not be noted further, save for the Jigglypuff line, which ported the SpA from Gen 6 to account for the Fairy change.
 * Additionally, Gen 7 type standards are applied to the Pokemon. Fairy-type Mr. Mime, Wigglytuff, and so on. Magneton is deliberately excluded for Magnezone dichotomy reasons, as this received positive feedback.
 * Orfry line is now Water/Normal and has received a significant statistical rework: Orfry has Goldeen's stats, Goldeen has Seaking's, and Seaking has 80/102/70/90/83.
+* Bittybat line has been reworked; it's now Psychic/Flying, and Bittybat has Zubat's stats. Upon evolution, it gets +20 to everything (+100 BST), before going to Golbat as normal (+75 BST). In case you're not following, yes, Zubat -> Golbat used to be +175 BST, which is extremely abnormal. This normalises the conundrum, which would have broken orthodox KEP philosophy.
 * Bellsprout and Weepinbell are now mono-Grass while Victreebel is Grass/Dark. With Bellignan in mind, you now choose the type you receive later.
 * Ekans and Arbok are now Poison / Dark type.
 * Hypno is now Psychic / Dark type.
