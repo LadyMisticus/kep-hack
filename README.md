@@ -195,6 +195,7 @@ Bird/Flying-related changes are excluded from the list. These are largely "commo
 * Submission now has 90 Base Power and 99.6% Accuracy. Much more reliable.
 * Twineedle's Base Power has now been doubled to 50, basically making it Bug-type Dragon Darts. Beedrill's having fun now.
 * Minimize now raises Evasion by 2 stages.
+* Vine Whip now has 30 PP.
 
 # Pokemon changes
 Bird/Flying-related changes are excluded from the list. These changes aim at reducing the number of "clone" Pokemon, improving type diversity, contextualising some Pokemon with their baby forms (particularly Seaking), and allowing for more interesting design choices down the line. **This does not include learnset changes**, which are bountiful and can be found [here](https://docs.google.com/spreadsheets/d/1OTzBHu5gOPB4aT82IrBg5Nx6N2KCnpJyVFt0VIqk1s0/edit?usp=sharing).

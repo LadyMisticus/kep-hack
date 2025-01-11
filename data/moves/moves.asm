@@ -32,7 +32,7 @@ Moves:
 	move FLY,          FLY_EFFECT,                  70, FLYING,        95, 15
 	move BIND,         TRAPPING_EFFECT,             15, NORMAL,        75, 20
 	move SLAM,         NO_ADDITIONAL_EFFECT,        80, NORMAL,        75, 20
-	move VINE_WHIP,    NO_ADDITIONAL_EFFECT,        35, GRASS,        100, 10
+	move VINE_WHIP,    NO_ADDITIONAL_EFFECT,        35, GRASS,        100, 30 ; Now has 30 PP.
 	move STOMP,        FLINCH_SIDE_EFFECT2,         65, NORMAL,       100, 20
 	move DOUBLE_KICK,  ATTACK_TWICE_EFFECT,         30, FIGHTING,     100, 30
 	move MEGA_KICK,    NO_ADDITIONAL_EFFECT,       120, NORMAL,        75,  5
