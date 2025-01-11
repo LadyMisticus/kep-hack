@@ -200,7 +200,7 @@ Bird/Flying-related changes are excluded from the list. These changes aim at red
 * Significant stat changes are represented in HP / ATK / DEF / SPC / SPE format.
 * All Pokemon are brought to Gen 7 stat standards, save for Farfetch'd. Thus, Golem has 120 Atk, Dodrio has 110 Speed, and so on. These will not be noted further, save for the Jigglypuff line, which ported the SpA from Gen 6 to account for the Fairy change.
 * Additionally, Gen 7 type standards are applied to the Pokemon. Fairy-type Mr. Mime, Wigglytuff, and so on. Magneton is deliberately excluded for Magnezone dichotomy reasons, as this received positive feedback.
-* Orfry line is now Water/Normal and has received a significant statistical rework: Orfry has Goldeen's stats, Goldeen has Seaking's, and Seaking has 85/112/75/90/88.
+* Orfry line is now Water/Normal and has received a significant statistical rework: Orfry has Goldeen's stats, Goldeen has Seaking's, and Seaking has 80/102/70/90/83.
 * Bellsprout and Weepinbell are now mono-Grass while Victreebel is Grass/Dark. With Bellignan in mind, you now choose the type you receive later.
 * Ekans and Arbok are now Poison / Dark type.
 * Hypno is now Psychic / Dark type.
