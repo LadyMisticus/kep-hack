@@ -1,6 +1,6 @@
 	db DEX_ZUBAT ; pokedex id
 
-	db  40,  45,  35,  55,  40
+	db  60,  65,  55,  65,  60
 	;   hp  atk  def  spd  spc
 
 	db PSYCHIC_TYPE, FLYING ; type
@@ -14,9 +14,10 @@
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm RAZOR_WIND,   WHIRLWIND,    TOXIC,        HEADBUTT,    DOUBLE_EDGE,  \
-	     RAGE,         MEGA_DRAIN,   MIMIC,        DOUBLE_TEAM,  BIDE,         \
-	     SWIFT,        REST,         SUBSTITUTE, PSYWAVE, PSYCHIC_M, DREAM_EATER
+	tmhm RAZOR_WIND,   TOXIC,        HEADBUTT,    DOUBLE_EDGE,  \
+	     MEGA_DRAIN,   MIMIC,        DOUBLE_TEAM,  \
+	     SWIFT,        REST,         SUBSTITUTE, PSYCHIC_M, \
+		 SHADOW_BALL, SLUDGE_BOMB
 	; end
 
 	db BANK(ZubatPicFront)

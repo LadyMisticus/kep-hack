@@ -15,9 +15,10 @@
 
 	; tm/hm learnset
 	tmhm TOXIC,        HORN_DRILL,   BODY_SLAM,    HEADBUTT,    DOUBLE_EDGE,  \
-	     BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     RAGE,         \
+	     BUBBLEBEAM,   ICE_BEAM,     BLIZZARD,        \
 	     THUNDERBOLT,  THUNDER,      MIMIC,        DOUBLE_TEAM,  REFLECT,      \
-	     BIDE,         SKULL_BASH,   REST,         SUBSTITUTE
+	     REST,         SUBSTITUTE, SHADOW_BALL, ROCK_THROW, SMART_STRIKE,     \
+		 SLUDGE_BOMB
 	; end
 
 	db BANK(NidorinaPicFront)

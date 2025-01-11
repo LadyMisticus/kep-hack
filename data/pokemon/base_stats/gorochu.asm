@@ -16,10 +16,11 @@
 	; tm/hm learnset
 	tmhm MEGA_PUNCH,   MEGA_KICK,    TOXIC,        HORN_DRILL,   BODY_SLAM,    \
 	     HEADBUTT,    DOUBLE_EDGE,  HYPER_BEAM,   PAY_DAY,      SUBMISSION,   \
-	     COUNTER,      SEISMIC_TOSS, RAGE,         THUNDERBOLT,  THUNDER,      \
-	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         SWIFT,        \
-	     SKULL_BASH,   REST,         THUNDER_WAVE, SUBSTITUTE,   FLY,          \
-	     SURF,         FLASH
+	     COUNTER,      SEISMIC_TOSS, THUNDERBOLT,  THUNDER,      \
+	     MIMIC,        DOUBLE_TEAM,  REFLECT,      SWIFT,        \
+	     REST,         THUNDER_WAVE, SUBSTITUTE,   FLY,          \
+	     SURF,         FLASH, SMART_STRIKE, DRAININGKISS, TOMBSTONER, \
+		 BRUTAL_SWING
 	; end
 
 	db BANK(GorochuPicFront)
