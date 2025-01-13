@@ -14,10 +14,10 @@
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm RAZOR_WIND,   WHIRLWIND,    TOXIC,        HEADBUTT,    DOUBLE_EDGE,  \
+	tmhm RAZOR_WIND,   TOXIC,        HEADBUTT,    DOUBLE_EDGE,  \
 	     HYPER_BEAM,         MEGA_DRAIN,   MIMIC,        DOUBLE_TEAM,  \
-	     SWIFT,        SKY_ATTACK,   REST,         SUBSTITUTE,   \
-	     FLY, PSYCHIC_M, SHADOW_BALL
+	     SWIFT,        REST,         SUBSTITUTE,   \
+	     FLY, PSYCHIC_M, SHADOW_BALL, SLUDGE_BOMB
 	; end
 
 	db BANK(CrobatPicFront)

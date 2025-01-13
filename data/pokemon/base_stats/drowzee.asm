@@ -15,10 +15,11 @@
 
 	; tm/hm learnset
 	tmhm MEGA_PUNCH,   MEGA_KICK,    TOXIC,        BODY_SLAM,    HEADBUTT,    \
-	     DOUBLE_EDGE,  SUBMISSION,   COUNTER,      SEISMIC_TOSS, RAGE,         \
-	     PSYCHIC_M,    TELEPORT,     MIMIC,        DOUBLE_TEAM,  REFLECT,      \
-	     BIDE,         METRONOME,    SKULL_BASH,   DREAM_EATER,  REST,         \
-	     THUNDER_WAVE, PSYWAVE,      TRI_ATTACK,   SUBSTITUTE,   FLASH
+	     DOUBLE_EDGE,  SUBMISSION,   COUNTER,      SEISMIC_TOSS, \
+	     PSYCHIC_M,    MIMIC,        DOUBLE_TEAM,  REFLECT,      \
+	     METRONOME,    REST,         \
+	     THUNDER_WAVE, TRI_ATTACK,   SUBSTITUTE,   FLASH, \
+		 DRAININGKISS, SHADOW_BALL
 	; end
 
 	db BANK(DrowzeePicFront)

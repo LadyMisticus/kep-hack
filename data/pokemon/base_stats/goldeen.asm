@@ -15,9 +15,9 @@
 
 	; tm/hm learnset
 	tmhm TOXIC,        HORN_DRILL,   HEADBUTT,    DOUBLE_EDGE,  BUBBLEBEAM,   \
-	     WATER_GUN,    ICE_BEAM,     BLIZZARD,     RAGE,         MIMIC,        \
-	     DOUBLE_TEAM,  BIDE,         SWIFT,        SKULL_BASH,   REST,         \
-	     SUBSTITUTE,   SURF
+	     ICE_BEAM,     BLIZZARD,     MIMIC,        \
+	     DOUBLE_TEAM,  SWIFT,        REST,         \
+	     SUBSTITUTE,   SURF, SMART_STRIKE
 	; end
 
 	db BANK(GoldeenPicFront)

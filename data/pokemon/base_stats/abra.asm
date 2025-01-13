@@ -14,11 +14,11 @@
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm MEGA_PUNCH,   SHADOW_BALL,   MEGA_KICK,    TOXIC,        BODY_SLAM,    HEADBUTT,    \
+	tmhm MEGA_PUNCH,   MEGA_KICK,    TOXIC,        BODY_SLAM,    HEADBUTT,    \
 	     DOUBLE_EDGE,  SUBMISSION,   COUNTER,      SEISMIC_TOSS,         \
-	     PSYCHIC_M,    TELEPORT,     MIMIC,        DOUBLE_TEAM,  REFLECT,      \
-	     METRONOME,    SKULL_BASH,   REST,         THUNDER_WAVE, \
-	     TRI_ATTACK,   SUBSTITUTE,   FLASH
+	     PSYCHIC_M,    MIMIC,        DOUBLE_TEAM,  REFLECT,      \
+	     METRONOME,    REST,         THUNDER_WAVE, \
+	     TRI_ATTACK,   SUBSTITUTE,   FLASH, SHADOW_BALL
 	; end
 
 	db BANK(AbraPicFront)

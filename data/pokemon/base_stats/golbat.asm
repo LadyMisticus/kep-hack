@@ -14,9 +14,9 @@
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm RAZOR_WIND,   WHIRLWIND,    TOXIC,        HEADBUTT,    DOUBLE_EDGE,  \
+	tmhm RAZOR_WIND,   TOXIC,        HEADBUTT,    DOUBLE_EDGE,  \
 	     HYPER_BEAM,         MEGA_DRAIN,   MIMIC,        DOUBLE_TEAM,  \
-	     SWIFT,        REST,         SUBSTITUTE, PSYWAVE, PSYCHIC_M, DREAM_EATER, SLUDGE_BOMB, SHADOW_BALL
+	     SWIFT, REST, SUBSTITUTE, PSYCHIC_M, SLUDGE_BOMB, SHADOW_BALL
 	; end
 
 	db BANK(GolbatPicFront)
