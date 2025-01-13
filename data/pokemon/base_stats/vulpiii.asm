@@ -14,9 +14,9 @@
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm TOXIC,        BODY_SLAM,    HEADBUTT,    DOUBLE_EDGE,  RAGE,         \
-	     DIG,          MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         \
-	     FIRE_BLAST,   SWIFT,        SKULL_BASH,   REST,         SUBSTITUTE
+	tmhm TOXIC,        BODY_SLAM,    HEADBUTT,    DOUBLE_EDGE,   \
+	     DIG,          MIMIC,        DOUBLE_TEAM,  REFLECT,      \
+	     FIRE_BLAST,   SWIFT,        REST,         SUBSTITUTE, FLAMETHROWER
 	; end
 
 	db BANK(VulpiiiPicFront)

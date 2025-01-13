@@ -14,9 +14,9 @@
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm TOXIC,        HEADBUTT,    DOUBLE_EDGE,  RAGE,         MEGA_DRAIN,   \
+	tmhm TOXIC,        HEADBUTT,    DOUBLE_EDGE,  MEGA_DRAIN,   \
 	     SOLARBEAM,    PSYCHIC_M,    MIMIC,        DOUBLE_TEAM,  REFLECT,      \
-	     BIDE,         REST,         PSYWAVE,      SUBSTITUTE,   FLASH
+	     REST,         SUBSTITUTE,   FLASH, POLLINATE, SLUDGE_BOMB
 	; end
 
 	db BANK(VenonatPicFront)

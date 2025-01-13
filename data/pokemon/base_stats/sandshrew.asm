@@ -15,10 +15,10 @@
 
 	; tm/hm learnset
 	tmhm SWORDS_DANCE, TOXIC,        BODY_SLAM,    HEADBUTT,    DOUBLE_EDGE,  \
-	     SUBMISSION,   SEISMIC_TOSS, RAGE,         EARTHQUAKE,   FISSURE,      \
-	     DIG,          MIMIC,        DOUBLE_TEAM,  BIDE,         SWIFT,        \
-	     SKULL_BASH,   REST,         ROCK_SLIDE,   SUBSTITUTE,   CUT,          \
-	     STRENGTH
+	     SUBMISSION,   SEISMIC_TOSS, EARTHQUAKE,   FISSURE,      \
+	     DIG,          MIMIC,        DOUBLE_TEAM,  SWIFT,        \
+	     REST,         ROCK_SLIDE,   SUBSTITUTE,   CUT,          \
+	     STRENGTH, ROCK_THROW
 	; end
 
 	db BANK(SandshrewPicFront)

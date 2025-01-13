@@ -15,10 +15,10 @@
 
 	; tm/hm learnset
 	tmhm TOXIC,        BODY_SLAM,    HEADBUTT,    DOUBLE_EDGE,  HYPER_BEAM,   \
-	     RAGE,         DRAGON_RAGE,  EARTHQUAKE,   FISSURE,      DIG,          \
-	     TELEPORT,     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         \
-	     FIRE_BLAST,   SWIFT,        SKULL_BASH,   REST,         ROCK_SLIDE,   \
-	     SUBSTITUTE
+	     DRAGON_RAGE,  EARTHQUAKE,   FISSURE,      DIG,          \
+	     MIMIC,        DOUBLE_TEAM,  REFLECT,      \
+	     FIRE_BLAST,   SWIFT,        REST,         ROCK_SLIDE,   \
+	     SUBSTITUTE, DRAGONBREATH, ROCK_THROW, TOMBSTONER, FLAMETHROWER
 	; end
 
 	db BANK(ArcanineHPicFront)

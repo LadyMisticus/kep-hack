@@ -15,10 +15,10 @@
 
 	; tm/hm learnset
 	tmhm MEGA_PUNCH,   TOXIC,        BODY_SLAM,    HEADBUTT,    DOUBLE_EDGE,  \
-	     SUBMISSION,   COUNTER,      SEISMIC_TOSS, RAGE,         EARTHQUAKE,   \
-	     FISSURE,      DIG,          MIMIC,        DOUBLE_TEAM,  BIDE,         \
-	     METRONOME,    SELFDESTRUCT, FIRE_BLAST,   REST,         EXPLOSION,    \
-	     ROCK_SLIDE,   SUBSTITUTE,   STRENGTH
+	     SUBMISSION,   COUNTER,      SEISMIC_TOSS, EARTHQUAKE,   \
+	     FISSURE,      DIG,          MIMIC,        DOUBLE_TEAM,  \
+	     METRONOME,    FIRE_BLAST,   REST,         EXPLOSION,    \
+	     ROCK_SLIDE,   SUBSTITUTE,   STRENGTH, ROCK_THROW, TOMBSTONER, FLAMETHROWER
 	; end
 
 	db BANK(GravelerPicFront)

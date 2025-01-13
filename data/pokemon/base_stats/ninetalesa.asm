@@ -15,9 +15,9 @@
 
 	; tm/hm learnset
 	tmhm TOXIC,        BODY_SLAM,    HEADBUTT,    DOUBLE_EDGE,  ICE_BEAM,     \
-	     BLIZZARD,     HYPER_BEAM,   RAGE,         DIG,          MIMIC,        \
-	     DOUBLE_TEAM,  REFLECT,      BIDE,         SWIFT,        SKULL_BASH,   \
-	     REST,         SUBSTITUTE, DRAININGKISS
+	     BLIZZARD,     HYPER_BEAM,   DIG,          MIMIC,        \
+	     DOUBLE_TEAM,  REFLECT,      SWIFT,        \
+	     REST,         SUBSTITUTE,   DRAININGKISS
 	; end
 
 	db BANK(NinetalesAPicFront)

@@ -15,9 +15,9 @@
 
 	; tm/hm learnset
 	tmhm TOXIC,        BODY_SLAM,    HEADBUTT,    DOUBLE_EDGE,  HYPER_BEAM,   \
-	     RAGE,         DIG,          MIMIC,        DOUBLE_TEAM,  REFLECT,      \
-	     BIDE,         FIRE_BLAST,   SWIFT,        SKULL_BASH,   REST,         \
-	     SUBSTITUTE, PSYWAVE, PSYCHIC_M, DREAM_EATER
+	     DIG,          MIMIC,        DOUBLE_TEAM,  REFLECT,      \
+	     FIRE_BLAST,   SWIFT,        REST,         \
+	     SUBSTITUTE,   FLAMETHROWER, PSYCHIC_M
 	; end
 
 	db BANK(NinetalesPicFront)
