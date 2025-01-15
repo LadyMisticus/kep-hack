@@ -14,11 +14,12 @@
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm TOXIC,        HEADBUTT,    DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    \
-	     ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   RAGE,         EARTHQUAKE,   \
-	     FISSURE,      DIG,          TELEPORT,     MIMIC,        DOUBLE_TEAM,  \
-	     REFLECT,      BIDE,         SELFDESTRUCT, SWIFT,        REST,         \
-	     EXPLOSION,    TRI_ATTACK,   SUBSTITUTE,   SURF, 	     STRENGTH
+	tmhm TOXIC,        HEADBUTT,     DOUBLE_EDGE,  BUBBLEBEAM,   \
+	     ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   EARTHQUAKE,   \
+	     FISSURE,      DIG,          MIMIC,        DOUBLE_TEAM,  \
+	     REFLECT,      SWIFT,        REST,         \
+	     EXPLOSION,    TRI_ATTACK,   SUBSTITUTE,   SURF, 	     STRENGTH, \
+		 SLUDGE_BOMB
 	; end
 
 	db BANK(DisturbanPicFront)

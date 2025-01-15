@@ -15,10 +15,10 @@
 
 	; tm/hm learnset
 	tmhm TOXIC,        BODY_SLAM,    HEADBUTT,    DOUBLE_EDGE,  HYPER_BEAM,   \
-	     RAGE,         MEGA_DRAIN,   SOLARBEAM,    THUNDERBOLT,  THUNDER,      \
-	     PSYCHIC_M,    TELEPORT,     MIMIC,        DOUBLE_TEAM,  BIDE,         \
-	     REST,         THUNDER_WAVE, PSYWAVE,      SUBSTITUTE,   STRENGTH,     \
-	     FLASH
+	     MEGA_DRAIN,   SOLARBEAM,    THUNDERBOLT,  THUNDER,      \
+	     PSYCHIC_M,    MIMIC,        DOUBLE_TEAM,  \
+	     REST,         THUNDER_WAVE, SUBSTITUTE,   STRENGTH,     \
+	     FLASH, SMART_STRIKE
 	; end
 
 	db BANK(RamoosePicFront)

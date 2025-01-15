@@ -16,9 +16,10 @@
 	; tm/hm learnset
 	tmhm MEGA_PUNCH,   SWORDS_DANCE, TOXIC,        BODY_SLAM,    HEADBUTT,    \
 	     DOUBLE_EDGE,  HYPER_BEAM,   SUBMISSION,   COUNTER,      SEISMIC_TOSS, \
-	     RAGE,         MEGA_DRAIN,   SOLARBEAM,    EARTHQUAKE,   FISSURE,      \
-	     MIMIC,        DOUBLE_TEAM,  BIDE,         SKULL_BASH,   REST,         \
-	     ROCK_SLIDE,   SUBSTITUTE,   CUT
+	     MEGA_DRAIN,   SOLARBEAM,    EARTHQUAKE,   FISSURE,      \
+	     MIMIC,        DOUBLE_TEAM,  REST,         \
+	     ROCK_SLIDE,   SUBSTITUTE,   CUT, POLLINATE, ROCK_THROW, SLUDGE_BOMB, \
+		 BRUTAL_SWING
 	; end
 
 	db BANK(TangrowthPicFront)

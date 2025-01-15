@@ -14,10 +14,10 @@
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm TOXIC,        HEADBUTT,    DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    \
-	     ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   RAGE,         DRAGON_RAGE,  \
-	     MIMIC,        DOUBLE_TEAM,  BIDE,         SWIFT,        SKULL_BASH,   \
-	     REST,         SUBSTITUTE,   SURF
+	tmhm TOXIC,        HEADBUTT,     DOUBLE_EDGE,  BUBBLEBEAM,   \
+	     ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   DRAGON_RAGE,  \
+	     MIMIC,        DOUBLE_TEAM,  SWIFT,        \
+	     REST,         SUBSTITUTE,   SURF, DRAGONBREATH
 	; end
 
 	db BANK(KingdraPicFront)

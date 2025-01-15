@@ -14,10 +14,10 @@
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm TOXIC,        HEADBUTT,    DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    \
-	     ICE_BEAM,     BLIZZARD,     RAGE,         MIMIC,        DOUBLE_TEAM,  \
-	     REFLECT,      BIDE,         REST,         SUBSTITUTE,   SURF,         \
-	     FLASH, DRAININGKISS
+	tmhm TOXIC,        HEADBUTT,    DOUBLE_EDGE,  BUBBLEBEAM,   \
+	     ICE_BEAM,     BLIZZARD,    MIMIC,        DOUBLE_TEAM,  \
+	     REFLECT,      REST,        SUBSTITUTE,   SURF,         \
+	     FLASH, SHADOW_BALL, DRAININGKISS, DRAGONBREATH, SLUDGE_BOMB, BRUTAL_SWING
 	; end
 
 	db BANK(BlottlePicFront)

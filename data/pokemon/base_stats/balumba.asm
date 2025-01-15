@@ -14,12 +14,12 @@
 	db GROWTH_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm RAZOR_WIND,   WHIRLWIND,    TOXIC,        HEADBUTT,    DOUBLE_EDGE,  \
-	     HYPER_BEAM,   RAGE,         THUNDERBOLT,  THUNDER,      PSYCHIC_M,    \
-	     TELEPORT,     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         \
-	     SELFDESTRUCT, SWIFT,        SKULL_BASH,   DREAM_EATER,  REST,         \
-	     PSYWAVE,      EXPLOSION,    TRI_ATTACK,   SUBSTITUTE,   FLY,          \
-	     FLASH, DRAININGKISS
+	tmhm RAZOR_WIND,   TOXIC,        HEADBUTT,     DOUBLE_EDGE,  \
+	     HYPER_BEAM,   THUNDERBOLT,  THUNDER,      PSYCHIC_M,    \
+	     MIMIC,        DOUBLE_TEAM,  REFLECT,      \
+	     SWIFT,        REST,         \
+	     EXPLOSION,    TRI_ATTACK,   SUBSTITUTE,   FLY,          \
+	     FLASH, DRAININGKISS, SHADOW_BALL, POLLINATE
 	; end
 
 	db BANK(BalumbaPicFront)

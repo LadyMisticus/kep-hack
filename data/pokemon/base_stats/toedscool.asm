@@ -14,10 +14,10 @@
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm SWORDS_DANCE, TOXIC,        HEADBUTT,    DOUBLE_EDGE,  RAGE,         \
+	tmhm SWORDS_DANCE, TOXIC,        HEADBUTT,     DOUBLE_EDGE,  \
 	     MEGA_DRAIN,   SOLARBEAM,	 EARTHQUAKE,   FISSURE,      DIG,          \
-	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         SKULL_BASH,   \
-	     REST,         SUBSTITUTE,   CUT
+	     MIMIC,        DOUBLE_TEAM,  REFLECT,      \
+	     REST,         SUBSTITUTE,   CUT, SLUDGE_BOMB, BRUTAL_SWING
 	; end
 
 	db BANK(ToedscoolPicFront)

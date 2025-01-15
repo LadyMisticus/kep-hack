@@ -14,12 +14,14 @@
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm MEGA_PUNCH,   RAZOR_WIND,   SWORDS_DANCE, WHIRLWIND,    TOXIC,        \
-	     BODY_SLAM,    HEADBUTT,    DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    \
-	     PAY_DAY,      SUBMISSION,   COUNTER,      SEISMIC_TOSS, RAGE,         \
-	     DIG,          TELEPORT,     MIMIC,        DOUBLE_TEAM,  REFLECT,      \
-	     BIDE,         METRONOME,    SWIFT,        REST,         PSYWAVE,      \
-	     SUBSTITUTE,   CUT,          SURF,         FLASH,
+	tmhm MEGA_PUNCH,   RAZOR_WIND,   SWORDS_DANCE, TOXIC,        \
+	     BODY_SLAM,    HEADBUTT,     DOUBLE_EDGE,  BUBBLEBEAM,   \
+	     PAY_DAY,      SUBMISSION,   COUNTER,      SEISMIC_TOSS, \
+	     DIG,          DOUBLE_TEAM,  REFLECT,      \
+	     METRONOME,    SWIFT,        REST,         \
+	     SUBSTITUTE,   CUT,          SURF,         FLASH, \
+		 SHADOW_BALL, ROCK_THROW, SLUDGE_BOMB, BRUTAL_SWING
+		 
 	; end
 
 	db BANK(RibbitoPicFront)
