@@ -14,10 +14,10 @@
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm TOXIC,        HEADBUTT,    DOUBLE_EDGE,  HYPER_BEAM,   RAGE,         \
-	     THUNDERBOLT,  THUNDER,      TELEPORT,     MIMIC,        DOUBLE_TEAM,  \
-	     REFLECT,      BIDE,         SWIFT,        REST,         THUNDER_WAVE, \
-	     SUBSTITUTE,   FLASH, SMART_STRIKE
+	tmhm TOXIC,        HEADBUTT,    DOUBLE_EDGE,  HYPER_BEAM,   \
+	     THUNDERBOLT,  THUNDER,     MIMIC,        DOUBLE_TEAM,  \
+	     REFLECT,      SWIFT,       REST,         THUNDER_WAVE, \
+	     SUBSTITUTE,   FLASH        
 	; end
 
 	db BANK(MagnezonePicFront)

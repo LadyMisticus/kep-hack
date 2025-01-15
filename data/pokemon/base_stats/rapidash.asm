@@ -15,9 +15,9 @@
 
 	; tm/hm learnset
 	tmhm TOXIC,        HORN_DRILL,   BODY_SLAM,    HEADBUTT,    DOUBLE_EDGE,  \
-	     HYPER_BEAM,   PAY_DAY,      RAGE,         MIMIC,        DOUBLE_TEAM,  \
-	     REFLECT,      BIDE,         FIRE_BLAST,   SWIFT,        SKULL_BASH,   \
-	     REST,         SUBSTITUTE
+	     HYPER_BEAM,   PAY_DAY,      MIMIC,        DOUBLE_TEAM,  \
+	     REFLECT,      FIRE_BLAST,   SWIFT,        \
+	     REST,         SUBSTITUTE, FLAMETHROWER, SMART_STRIKE
 	; end
 
 	db BANK(RapidashPicFront)

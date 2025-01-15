@@ -15,9 +15,9 @@
 
 	; tm/hm learnset
 	tmhm TOXIC,        HORN_DRILL,   BODY_SLAM,    HEADBUTT,    DOUBLE_EDGE,  \
-	     BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     PAY_DAY,      \
-	     RAGE,         MIMIC,        DOUBLE_TEAM,  BIDE,         SKULL_BASH,   \
-	     REST,         SUBSTITUTE,   SURF,         STRENGTH
+	     BUBBLEBEAM,   ICE_BEAM,     BLIZZARD,     PAY_DAY,      \
+	     MIMIC,        DOUBLE_TEAM,  \
+	     REST,         SUBSTITUTE,   SURF,         STRENGTH, SMART_STRIKE
 	; end
 
 	db BANK(SeelPicFront)

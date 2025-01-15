@@ -15,10 +15,11 @@
 
 	; tm/hm learnset
 	tmhm MEGA_PUNCH,   MEGA_KICK,    TOXIC,        BODY_SLAM,    HEADBUTT,    \
-	     DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     \
-	     SUBMISSION,   COUNTER,      SEISMIC_TOSS, RAGE,         EARTHQUAKE,   \
-	     FISSURE,      DIG,          MIMIC,        DOUBLE_TEAM,  BIDE,         \
-	     FIRE_BLAST,   SKULL_BASH,   REST,         SUBSTITUTE,   STRENGTH
+	     DOUBLE_EDGE,  BUBBLEBEAM,   ICE_BEAM,     BLIZZARD,     \
+	     SUBMISSION,   COUNTER,      SEISMIC_TOSS, EARTHQUAKE,   \
+	     FISSURE,      DIG,          MIMIC,        DOUBLE_TEAM,  \
+	     FIRE_BLAST,   REST,         SUBSTITUTE,   STRENGTH,     \
+		 ROCK_THROW,   BRUTAL_SWING, FLAMETHROWER
 	; end
 
 	db BANK(CubonePicFront)

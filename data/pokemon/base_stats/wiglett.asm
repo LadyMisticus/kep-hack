@@ -14,10 +14,10 @@
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm TOXIC,        BODY_SLAM,    HEADBUTT,    DOUBLE_EDGE,  BUBBLEBEAM,   \
-	     WATER_GUN,    ICE_BEAM,     BLIZZARD,     RAGE,         EARTHQUAKE,   \
-	     FISSURE,      DIG,          MIMIC,        DOUBLE_TEAM,  BIDE,         \
-	     REST,         SUBSTITUTE,   CUT,          SURF
+	tmhm TOXIC,        BODY_SLAM,    HEADBUTT,     DOUBLE_EDGE,  BUBBLEBEAM,   \
+	     ICE_BEAM,     BLIZZARD,     EARTHQUAKE,   \
+	     FISSURE,      DIG,          MIMIC,        DOUBLE_TEAM,  \
+	     REST,         SUBSTITUTE,   CUT,          SURF, ROCK_THROW, SLUDGE_BOMB
 	; end
 
 	db BANK(WiglettPicFront)

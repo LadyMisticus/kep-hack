@@ -16,10 +16,10 @@
 	; tm/hm learnset
 	tmhm MEGA_PUNCH,   MEGA_KICK,    TOXIC,        BODY_SLAM,    HEADBUTT,    \
 	     DOUBLE_EDGE,  HYPER_BEAM,   SUBMISSION,   COUNTER,      SEISMIC_TOSS, \
-	     RAGE,         MEGA_DRAIN,   THUNDERBOLT,  THUNDER,      PSYCHIC_M,    \
-	     MIMIC,        DOUBLE_TEAM,  BIDE,         METRONOME,    SELFDESTRUCT, \
-	     SKULL_BASH,   DREAM_EATER,  REST,         PSYWAVE,      EXPLOSION,    \
-	     SUBSTITUTE,   STRENGTH
+	     MEGA_DRAIN,   THUNDERBOLT,  THUNDER,      PSYCHIC_M,    \
+	     MIMIC,        DOUBLE_TEAM,  METRONOME,    \
+	     REST,         EXPLOSION,    \
+	     SUBSTITUTE,   STRENGTH, SHADOW_BALL, SLUDGE_BOMB
 	; end
 
 	db BANK(GengarPicFront)
