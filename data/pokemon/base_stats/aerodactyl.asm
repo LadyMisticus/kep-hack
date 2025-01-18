@@ -16,7 +16,7 @@
 	; tm/hm learnset
 	tmhm RAZOR_WIND,  TOXIC,        HEADBUTT,    DOUBLE_EDGE,  \
 	     HYPER_BEAM, DRAGON_RAGE,  MIMIC,        DOUBLE_TEAM,  \
-	     REFLECT, FIRE_BLAST,   SWIFT,        SKY_ATTACK,   \
+	     REFLECT, FIRE_BLAST,   SWIFT,         \
 	     REST,         SUBSTITUTE,   FLY, DRAGONBREATH, ROCK_THROW, \
 		 TOMBSTONER, BRUTAL_SWING, FLAMETHROWER
 	; end

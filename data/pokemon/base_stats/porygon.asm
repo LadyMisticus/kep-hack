@@ -14,11 +14,11 @@
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm TOXIC,        HEADBUTT,    DOUBLE_EDGE,  ICE_BEAM,     BLIZZARD,     \
-	     HYPER_BEAM,   RAGE,         THUNDERBOLT,  THUNDER,      PSYCHIC_M,    \
-	     TELEPORT,     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         \
-	     SWIFT,        SKULL_BASH,   REST,         THUNDER_WAVE, PSYWAVE,      \
-	     TRI_ATTACK,   SUBSTITUTE,   FLASH
+	tmhm TOXIC,        HEADBUTT,     DOUBLE_EDGE,  ICE_BEAM,     BLIZZARD,     \
+	     HYPER_BEAM,   THUNDERBOLT,  THUNDER,      PSYCHIC_M,    \
+	     MIMIC,        DOUBLE_TEAM,  REFLECT,      \
+	     SWIFT,        REST,         THUNDER_WAVE, \
+	     TRI_ATTACK,   SUBSTITUTE,   FLASH, SHADOW_BALL
 	; end
 
 	db BANK(PorygonPicFront)

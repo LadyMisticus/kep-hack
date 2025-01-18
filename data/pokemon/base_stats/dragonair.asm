@@ -15,10 +15,11 @@
 
 	; tm/hm learnset
 	tmhm TOXIC,        HORN_DRILL,   BODY_SLAM,    HEADBUTT,    DOUBLE_EDGE,  \
-	     BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     RAGE,         \
+	     BUBBLEBEAM,   ICE_BEAM,     BLIZZARD,     \
 	     DRAGON_RAGE,  THUNDERBOLT,  THUNDER,      MIMIC,        DOUBLE_TEAM,  \
-	     REFLECT,      BIDE,         FIRE_BLAST,   SWIFT,        SKULL_BASH,   \
-	     REST,         THUNDER_WAVE, SUBSTITUTE,   SURF
+	     REFLECT,      FIRE_BLAST,   SWIFT,        \
+	     REST,         THUNDER_WAVE, SUBSTITUTE,   SURF, \
+		 DRAGONBREATH, BRUTAL_SWING, FLAMETHROWER
 	; end
 
 	db BANK(DragonairPicFront)

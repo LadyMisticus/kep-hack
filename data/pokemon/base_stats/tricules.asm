@@ -14,10 +14,11 @@
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm SWORDS_DANCE, TOXIC,        BODY_SLAM,    HEADBUTT,    DOUBLE_EDGE,  \
-	     HYPER_BEAM,   SUBMISSION,   SEISMIC_TOSS, RAGE,         EARTHQUAKE,   \
-	     FISSURE,      MIMIC,        DOUBLE_TEAM,  BIDE,         SWIFT,        \
-	     REST,         SUBSTITUTE,   CUT,          STRENGTH, SMART_STRIKE
+	tmhm SWORDS_DANCE, TOXIC,        BODY_SLAM,    HEADBUTT,     DOUBLE_EDGE,  \
+	     HYPER_BEAM,   SUBMISSION,   SEISMIC_TOSS, EARTHQUAKE,   \
+	     FISSURE,      MIMIC,        DOUBLE_TEAM,  SWIFT,        \
+	     REST,         SUBSTITUTE,   CUT,          STRENGTH, SMART_STRIKE, \
+		 ROCK_THROW, BRUTAL_SWING
 	; end
 
 	db BANK(TriculesPicFront)

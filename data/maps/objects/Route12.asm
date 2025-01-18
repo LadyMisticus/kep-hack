@@ -21,6 +21,6 @@ Route12_Object:
 	object_event  6, 87, SPRITE_FISHER, STAY, DOWN, 8, OPP_FISHER, 11
 	object_event 14, 35, SPRITE_POKE_BALL, STAY, NONE, 9, TM_PAY_DAY
 	object_event  5, 89, SPRITE_POKE_BALL, STAY, NONE, 10, IRON
-	object_event  5, 17, SPRITE_POKE_BALL, STAY, NONE, 11, TM_WHIRLWIND
+	object_event  5, 17, SPRITE_POKE_BALL, STAY, NONE, 11, TM_SHADOW_BALL
 
 	def_warps_to ROUTE_12

@@ -15,10 +15,10 @@
 
 	; tm/hm learnset
 	tmhm TOXIC,        HORN_DRILL,   BODY_SLAM,    HEADBUTT,    DOUBLE_EDGE,  \
-	     BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   \
-	     SUBMISSION,   SEISMIC_TOSS, RAGE,         MIMIC,        DOUBLE_TEAM,  \
-	     REFLECT,      BIDE,         SKULL_BASH,   REST,         SUBSTITUTE,   \
-	     SURF
+	     BUBBLEBEAM,   ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   \
+	     SUBMISSION,   SEISMIC_TOSS, MIMIC,        DOUBLE_TEAM,  \
+	     REFLECT,      REST,         SUBSTITUTE,   \
+	     SURF, ROCK_THROW, TOMBSTONER
 	; end
 
 	db BANK(OmastarPicFront)

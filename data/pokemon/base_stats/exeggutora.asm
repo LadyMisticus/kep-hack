@@ -14,11 +14,12 @@
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm SWORDS_DANCE, TOXIC,        HEADBUTT,    DOUBLE_EDGE,  HYPER_BEAM,   \
-	     RAGE,         MEGA_DRAIN,   SOLARBEAM,    DRAGON_RAGE,  EARTHQUAKE,   \
-	     FISSURE,      PSYCHIC_M,    TELEPORT,     MIMIC,        DOUBLE_TEAM,  \
-	     REFLECT,      BIDE,         SELFDESTRUCT, EGG_BOMB,     REST,         \
-		 PSYWAVE,      EXPLOSION,    SUBSTITUTE,   STRENGTH	   
+	tmhm SWORDS_DANCE, TOXIC,        HEADBUTT,     DOUBLE_EDGE,  HYPER_BEAM,   \
+	     MEGA_DRAIN,   SOLARBEAM,    DRAGON_RAGE,  EARTHQUAKE,   \
+	     FISSURE,      PSYCHIC_M,    MIMIC,        DOUBLE_TEAM,  \
+	     REFLECT,      EGG_BOMB,     REST,         \
+		 EXPLOSION,    SUBSTITUTE,   STRENGTH,     \
+		 POLLINATE, SLUDGE_BOMB, DRAGONBREATH, BRUTAL_SWING
 	; end
 
 	db BANK(ExeggutorAPicFront)
