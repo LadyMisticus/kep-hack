@@ -14,9 +14,9 @@
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm WHIRLWIND,    TOXIC,        HEADBUTT,    DOUBLE_EDGE,  HYPER_BEAM,   \
-	     RAGE,         MIMIC,        DOUBLE_TEAM,  BIDE,         SWIFT,        \
-	     SKY_ATTACK,   REST,         SUBSTITUTE,   FLY
+	tmhm TOXIC,        HEADBUTT,     DOUBLE_EDGE,  HYPER_BEAM,   \
+	     MIMIC,        DOUBLE_TEAM,  SWIFT,        \
+	     REST,         SUBSTITUTE,   FLY, SHADOW_BALL, BRUTAL_SWING
 	; end
 
 	db BANK(MoltresGPicFront)

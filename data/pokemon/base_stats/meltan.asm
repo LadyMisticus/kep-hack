@@ -14,8 +14,8 @@
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm TOXIC, 	   RAGE, 	     MIMIC, 	   DOUBLE_TEAM,  BIDE,		   \
-		 REST,         THUNDER_WAVE, SUBSTITUTE, SMART_STRIKE
+	tmhm TOXIC, 	   MIMIC, 	   DOUBLE_TEAM,  \
+		 REST,         THUNDER_WAVE, SUBSTITUTE
 	; end
 
 	db BANK(MeltanPicFront)

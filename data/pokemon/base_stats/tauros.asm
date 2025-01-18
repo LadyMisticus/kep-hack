@@ -15,10 +15,10 @@
 
 	; tm/hm learnset
 	tmhm TOXIC,        HORN_DRILL,   BODY_SLAM,    HEADBUTT,    DOUBLE_EDGE,  \
-	     ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   RAGE,         THUNDERBOLT,  \
+	     ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   THUNDERBOLT,  \
 	     THUNDER,      EARTHQUAKE,   FISSURE,      MIMIC,        DOUBLE_TEAM,  \
-	     BIDE,         FIRE_BLAST,   SKULL_BASH,   REST,         SUBSTITUTE,   \
-	     STRENGTH
+	     FIRE_BLAST,   REST,         SUBSTITUTE,   \
+	     STRENGTH, SHADOW_BALL, FLAMETHROWER, SMART_STRIKE
 	; end
 
 	db BANK(TaurosPicFront)

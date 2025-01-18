@@ -15,11 +15,12 @@
 
 	; tm/hm learnset
 	tmhm MEGA_PUNCH,   MEGA_KICK,    TOXIC,        HORN_DRILL,   BODY_SLAM,    \
-	     HEADBUTT,    DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     \
+	     HEADBUTT,     DOUBLE_EDGE,  BUBBLEBEAM,   ICE_BEAM,     \
 	     BLIZZARD,     HYPER_BEAM,   SUBMISSION,   COUNTER,      SEISMIC_TOSS, \
-	     RAGE,         THUNDERBOLT,  THUNDER,      EARTHQUAKE,   FISSURE,      \
-	     MIMIC,        DOUBLE_TEAM,  BIDE,         FIRE_BLAST,   SWIFT,        \
-	     SKULL_BASH,   REST,         ROCK_SLIDE,   SUBSTITUTE,   STRENGTH
+	     THUNDERBOLT,  THUNDER,      EARTHQUAKE,   FISSURE,      \
+	     MIMIC,        DOUBLE_TEAM,  FIRE_BLAST,   SWIFT,        \
+	     REST,         ROCK_SLIDE,   SUBSTITUTE,   STRENGTH,     \
+		 ROCK_THROW, TOMBSTONER, BRUTAL_SWING, FLAMETHROWER
 	; end
 
 	db BANK(TrampelPicFront)

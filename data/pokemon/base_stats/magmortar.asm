@@ -16,10 +16,10 @@
 	; tm/hm learnset
 	tmhm MEGA_PUNCH,   MEGA_KICK,    TOXIC,        BODY_SLAM,    HEADBUTT,    \
 	     DOUBLE_EDGE,  HYPER_BEAM,   SUBMISSION,   COUNTER,      SEISMIC_TOSS, \
-	     RAGE,         THUNDERBOLT,  THUNDER,      EARTHQUAKE,   FISSURE,      \
-	     PSYCHIC_M,    TELEPORT,     MIMIC,        DOUBLE_TEAM,  BIDE,         \
-	     METRONOME,    FIRE_BLAST,   SKULL_BASH,   REST,         PSYWAVE,	   \      
-		 ROCK_SLIDE,   SUBSTITUTE,   STRENGTH
+	     THUNDERBOLT,  THUNDER,      EARTHQUAKE,   FISSURE,      \
+	     PSYCHIC_M,    MIMIC,        DOUBLE_TEAM,  \
+	     METRONOME,    FIRE_BLAST,   REST,         \      
+		 ROCK_SLIDE,   SUBSTITUTE,   STRENGTH, ROCK_THROW, FLAMETHROWER
 	; end
 
 	db BANK(MagmortarPicFront)

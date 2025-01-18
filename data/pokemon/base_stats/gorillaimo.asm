@@ -15,11 +15,12 @@
 
     ; tm/hm learnset
     tmhm MEGA_PUNCH,   MEGA_KICK,    TOXIC,        BODY_SLAM,    HEADBUTT,    \
-         DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    HYPER_BEAM,   SUBMISSION,   \
-         COUNTER,      SEISMIC_TOSS, RAGE,         THUNDERBOLT,  THUNDER,      \
+         DOUBLE_EDGE,  BUBBLEBEAM,   HYPER_BEAM,   SUBMISSION,   \
+         COUNTER,      SEISMIC_TOSS, THUNDERBOLT,  THUNDER,      \
          EARTHQUAKE,   FISSURE,      DIG,          MIMIC,        DOUBLE_TEAM,  \
-         BIDE,         METRONOME,    SWIFT,        SKULL_BASH,   REST,         \
-         THUNDER_WAVE, ROCK_SLIDE,   SUBSTITUTE,   SURF,         STRENGTH
+         METRONOME,    SWIFT,        REST,         \
+         THUNDER_WAVE, ROCK_SLIDE,   SUBSTITUTE,   SURF,         STRENGTH,     \
+		 ROCK_THROW, TOMBSTONER
     ; end
 
     db BANK(GorillaimoPicFront)

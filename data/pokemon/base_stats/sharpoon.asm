@@ -15,9 +15,9 @@
 
 	; tm/hm learnset
 	tmhm SWORDS_DANCE, TOXIC,        HORN_DRILL,   HEADBUTT,    DOUBLE_EDGE,  \
-	     BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   \
-	     RAGE,         EARTHQUAKE,   FISSURE,      MIMIC,        DOUBLE_TEAM,  \
-	     BIDE,         SKULL_BASH,   REST,         SUBSTITUTE,   SURF, SMART_STRIKE
+	     BUBBLEBEAM,   ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   \
+	     EARTHQUAKE,   FISSURE,      MIMIC,        DOUBLE_TEAM,  \
+	     REST,         SUBSTITUTE,   SURF, SMART_STRIKE, BRUTAL_SWING
 	; end
 
 	db BANK(SharpoonPicFront)

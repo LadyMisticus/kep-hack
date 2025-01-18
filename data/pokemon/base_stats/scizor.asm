@@ -14,9 +14,9 @@
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm SWORDS_DANCE, TOXIC,        HEADBUTT,    DOUBLE_EDGE,  HYPER_BEAM,   \
-	     RAGE,         MIMIC,        DOUBLE_TEAM,  BIDE,         SWIFT,        \
-	     SKULL_BASH,   REST,         SUBSTITUTE,   CUT, SMART_STRIKE
+	tmhm SWORDS_DANCE, TOXIC,        HEADBUTT,     DOUBLE_EDGE,  HYPER_BEAM,   \
+	     MIMIC,        DOUBLE_TEAM,  SWIFT,        \
+	     REST,         SUBSTITUTE,   CUT, BRUTAL_SWING
 	; end
 
 	db BANK(ScizorPicFront)

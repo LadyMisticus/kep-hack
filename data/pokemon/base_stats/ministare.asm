@@ -15,10 +15,10 @@
 
 	; tm/hm learnset
 	tmhm TOXIC,        BODY_SLAM,    HEADBUTT,    DOUBLE_EDGE,  BUBBLEBEAM,   \
-	     WATER_GUN,    RAGE,         DRAGON_RAGE,  THUNDERBOLT,  THUNDER,      \
-	     DIG,          MIMIC,        DOUBLE_TEAM,  BIDE,         SWIFT,        \
-	     SKULL_BASH,   REST,         ROCK_SLIDE,   SUBSTITUTE,   CUT,          \
-	     SURF,         STRENGTH
+	     DRAGON_RAGE,  THUNDERBOLT,  THUNDER,      \
+	     DIG,          MIMIC,        DOUBLE_TEAM,  SWIFT,        \
+	     REST,         ROCK_SLIDE,   SUBSTITUTE,   CUT,          \
+	     SURF,         STRENGTH, DRAGONBREATH, ROCK_THROW, BRUTAL_SWING
 	; end
 
 	db BANK(MinistarePicFront)
