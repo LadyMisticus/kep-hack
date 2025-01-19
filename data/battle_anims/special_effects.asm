@@ -16,6 +16,9 @@ AnimationIdSpecialEffects:
 	anim_special_effect GROWL,                 DoGrowlSpecialEffects
 	anim_special_effect EXPLOSION,             DoExplodeSpecialEffects ; Now uses a black screen
 	anim_special_effect ROCK_SLIDE,            DoRockSlideSpecialEffects ; This one was fixed in-script.
+	db -1 ; end
+
+AltAnimationIdSpecialEffects:
 	anim_special_effect TRADE_BALL_DROP_ANIM,  TradeHidePokemon
 	anim_special_effect TRADE_BALL_SHAKE_ANIM, TradeShakePokeball
 	anim_special_effect TRADE_BALL_TILT_ANIM,  TradeJumpPokeball
