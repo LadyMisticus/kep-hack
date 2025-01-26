@@ -216,9 +216,6 @@ AttackAnimationPointers:
 	dw ShadowSneakAnim
 	dw StruggleAnim
 	assert_table_length NUM_ATTACKS
-	
-AlternativeAnimationPointers:
-	table_width 2, AlternativeAnimationPointers
 	dw ShowPicAnim
 	dw EnemyFlashAnim
 	dw PlayerFlashAnim
@@ -258,7 +255,7 @@ AlternativeAnimationPointers:
 	dw ThrowBaitAnim
 	dw AmnesiaEnemyAnim
 	dw FakeTearsEnemyAnim
-	assert_table_length NUM_ALTERNATIVE_ANIMS
+	assert_table_length NUM_ATTACK_ANIMS
 	dw ZigZagScreenAnim
 
 ; each animation is a list of subanimations
@@ -1634,42 +1631,6 @@ KowtowCleaveAnim:
 DisarmingVoiceAnim:
 	battle_anim DISARMING_VOICE, SUBANIM_0_HEART_1_MUSIC, 1, 6
 	db -1 ; end
-	
-; FreezingGlareAnim:
-;	battle_anim GROWTH, SE_LIGHT_SCREEN_PALETTE
-;	battle_anim NO_MOVE, SUBANIM_0_CIRCLE_1_SQUARE_CLOSING, 0, 3	
-;	battle_anim NO_MOVE, SE_DARK_SCREEN_FLASH
-;	battle_anim PSYBEAM, SUBANIM_0_BEAM, 0, 5
-;	battle_anim ROCK_THROW, SUBANIM_0_BIND, 0, 2
-;	battle_anim NO_MOVE, SUBANIM_0_BIND, 0, 2
-;	battle_anim NO_MOVE, SUBANIM_0_BIND, 0, 2
-;	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
-;	db -1 ; end
-	
-; ThunderousKickAnim:
-;	battle_anim THUNDERSHOCK, SUBANIM_0_STATUS_PARALYZED, 0, 4	
-;	battle_anim NO_MOVE, SUBANIM_0_STATUS_PARALYZED, 0, 4
-;	battle_anim NO_MOVE, SE_SQUISH_MON_PIC
-;	battle_anim HI_JUMP_KICK, SE_SHOOT_BALLS_UPWARD
-;	battle_anim NO_MOVE, SE_DARK_SCREEN_PALETTE
-;	battle_anim NO_MOVE, SE_DARK_SCREEN_FLASH
-;	battle_anim THUNDER, SUBANIM_0_STAR_DESCENDING, 0, 12
-;	battle_anim NO_MOVE, SE_SLIDE_MON_DOWN
-;	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
-;	battle_anim NO_MOVE, SE_SLIDE_MON_UP
-;	battle_anim NO_MOVE, SE_SHOW_MON_PIC
-;	db -1 ; end
-	
-; FieryWrathAnim:
-;	battle_anim NO_MOVE, SE_DARK_SCREEN_PALETTE
-;	battle_anim SUPERSONIC, SE_SHAKE_BACK_AND_FORTH
-;	battle_anim SKY_ATTACK, SE_SHOW_MON_PIC
-;	battle_anim NO_MOVE, SE_DARK_SCREEN_FLASH
-;	battle_anim FIRE_BLAST, SUBANIM_1_FLAME_COLUMN_2, 1, 5
-;	battle_anim NO_MOVE, SUBANIM_1_FLAME_COLUMN_3, 1, 6
-;	battle_anim SELFDESTRUCT, SE_WAVY_SCREEN
-;	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
-;	db -1 ; end
 
 BallTossAnim:
 	battle_anim NO_MOVE, SUBANIM_0_BALL_TOSS_HIGH, 0, 3

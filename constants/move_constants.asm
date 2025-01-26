@@ -226,9 +226,8 @@
 	const STRUGGLE     ; formerly a5
 DEF NUM_ATTACKS EQU const_value - 1
 
-	; Separate other battle animations
-	const_def
-	const NO_ANIM
+	; Moves do double duty as animation identifiers.
+
 	const SHOWPIC_ANIM
 	const STATUS_AFFECTED_ANIM
 	const ANIM_A8
@@ -269,4 +268,4 @@ DEF NUM_ATTACKS EQU const_value - 1
 	const AMNESIA_ENEMY_ANIM
 	const FAKE_TEARS_ENEMY_ANIM
 
-DEF NUM_ALTERNATIVE_ANIMS EQU const_value - 1
+DEF NUM_ATTACK_ANIMS EQU const_value - 1
